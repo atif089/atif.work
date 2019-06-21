@@ -12,6 +12,7 @@ module.exports = withSass({
     }
     // This will copy robots.txt from your project root into the out directory
     await copyFile(join(dir, "/data/schema/", "001_person-main.js"), join(outDir, "/static/schema.json"));
+    await copyFile(join(dir, ".nojekyll"), join(outDir, ".nojekyll"));
     return defaultPathMap;
   },
 
