@@ -13,7 +13,7 @@ const schema = {
   "sameAs": [
     "https://www.linkedin.com/in/atif089",
     "https://github.com/atif089",
-    "https://atif.work/atif-mohammed-cv.pdf"
+    "http://atif.work/atif-mohammed-cv.pdf"
   ],
   "jobTitle": "Frontend Developer",
   "hasOccupation": [
