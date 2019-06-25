@@ -3,7 +3,7 @@ html {
 
 body {
   font-family: Lato, Helvetica, "Luicida Sans", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #636363; }
 
 #app {
@@ -13,7 +13,8 @@ body {
 .section {
   padding: 0.5rem 0.5rem 0; }
 
-h2 {
+h2,
+.main-heading {
   font-family: Roboto, Helvetica, "Luicida Sans", sans-serif;
   font-size: 2em; }
 
@@ -55,6 +56,28 @@ h3 {
   font-family: Roboto, Helvetica, "Luicida Sans", sans-serif;
   font-size: 3em; }
 
+.achievements {
+  margin-bottom: 20px; }
+
+.achievements--list p {
+  margin: 12px 0;
+  line-height: 1.75; }
+
+.skill-cloud {
+  margin-top: 20px; }
+
+.tech-used,
+.skill-cloud {
+  font-size: 0.85em; }
+
+.tech-used span,
+.skill-cloud span {
+  margin: 5px 5px 5px 0;
+  padding: 3px 6px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  display: inline-block; }
+
 .experience-holder,
 .education-holder {
   border-left: 0.5em solid #f0f0f0;
@@ -76,6 +99,7 @@ h3 {
 .date {
   font-weight: bold; }
 
+.achievements--list h3,
 .company,
 .job-title {
   font-size: 1.3em;
@@ -84,15 +108,23 @@ h3 {
 .job-title {
   margin-bottom: 25px; }
 
+.achievements--list h3 {
+  margin: 20px 0 0;
+  padding: 0; }
+
 /* Media Queries */
+@media only screen {
+  .cv-only {
+    display: none; }
+  .pdf.cv-only {
+    display: block; } }
+
 @media only screen and (min-width: 800px) {
   .is-vertical-center {
     display: flex;
     align-items: center; }
   .profile-pic {
-    max-width: 150px; } }
-
-@media only screen and (min-width: 800px) {
+    max-width: 150px; }
   .is-vertical-center {
     display: flex;
     align-items: center; }
@@ -119,9 +151,7 @@ h3 {
   html {
     background-color: #ffffff; }
   .profile-pic {
-    max-width: 150px; }
-  .avoid-pb {
-    page-break-inside: avoid !important; } }
+    max-width: 150px; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
