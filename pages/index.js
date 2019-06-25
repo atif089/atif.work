@@ -54,7 +54,6 @@ const Home = () => (
                     </Link>
                   );
                 }
-
                 return null;
               })}
             </p>
@@ -62,8 +61,47 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="section">
-        <h2>Experience</h2>
+      <div className="section achievements">
+        <div className="columns">
+          <div className="column">
+            <div className="main-heading">Achievements</div>
+            <div className="achievements--list">
+              <h3>Amazon Patent Award</h3>
+              <p>
+                Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application
+                Number - 13/924,077)
+              </p>
+              <h3>Front End Development Mentor</h3>
+              <p>mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
+              <div className="cv-only">
+                <h3>Freelance Consulting</h3>
+                <p>
+                  Offered freelance consulting and development for about 8 years using various freelance platforms like
+                  Elance, oDesk etc. and also worked with offline Small–Medium Businesses.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="main-heading">Skills</div>
+            <div className="skill-cloud">
+              <p>
+                <span>HTML</span> <span>CSS</span> <span>Javascript</span> <span>NodeJS</span>
+                <span>MySQL / MariaDB</span> <span>MongoDB</span> <span>Rethink DB</span>
+                <span>React</span> <span>Redux</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
+                <span>Google Drive Scripts</span> <span>Postman</span> <span>Git CLI</span>
+                <span>AWS</span> <span>Google Cloud Platform</span>
+                <span>Nginx</span> <span>Apache</span> <span>PHP/WordPress</span>
+                <span>Terraform</span> <span>Docker</span> <span>Vagrant</span> <span>Linux / Bash</span>
+                <span>A/B Testing</span> <span>Google Analytics</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="section" style={{pageBreakBefore: 'always'}}>
+        <div className="main-heading">Experience</div>
         <div className="experience-holder">
           <BookingExperience />
           <AmazonExperience />
@@ -73,7 +111,7 @@ const Home = () => (
       </div>
 
       <div className="section">
-        <h2>Education</h2>
+        <div className="main-heading">Education</div>
         <div className="education-holder">
           <div className="columns">
             <div className="column is-one-third">

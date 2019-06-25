@@ -16,6 +16,9 @@ const Booking = () => (
             Working on development and maintenance of client portals for UHC M&amp;R Insurance Solutions. Work involved
             integrating UI Comps supplied by onshore resource into the existing website built upon Springs Framework
           </p>
+          <p className="tech-used">
+            <span>HTML</span> <span>CSS</span> <span>Javascript</span>
+          </p>
         </div>
       </div>
     </div>
