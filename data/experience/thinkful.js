@@ -1,5 +1,5 @@
 const Booking = () => (
-  <div className="columns avoid-pb">
+  <div className="columns">
     <div className="column is-one-third">
       <h3 className="company">Thinkful</h3>
       <p className="location">Remote</p>

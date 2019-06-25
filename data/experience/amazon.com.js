@@ -14,6 +14,9 @@ const Booking = () => (
         <h3 className="team-title is-size-6">Amazon Local Services</h3>
         <div className="job-desc">
           <p>Worked on implementation of early UI model, PoC for Amazon Local Services</p>
+          <p className="tech-used">
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>jQuery</span> <span>Amazon UI (AUI)</span>
+          </p>
         </div>
       </div>
 
@@ -25,6 +28,10 @@ const Booking = () => (
             US and Europe (services.amazon.com, services.amazon.co.uk, services.amazon.fr, services.amazon.de,
             services.amazon.es and services.amazon.it).
           </p>
+          <p className="tech-used">
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>A/B Testing</span>
+            <span>jQuery</span>
+          </p>
         </div>
       </div>
 
@@ -34,6 +41,9 @@ const Booking = () => (
           <p>
             Worked on the UI for a web based application which can orchestrate generation of configuration sets and
             monitoring configuration for new website launches
+          </p>
+          <p className="tech-used">
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>jQuery</span>
           </p>
         </div>
       </div>
