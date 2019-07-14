@@ -43,4 +43,7 @@ const schema = {
   ]
 };
 
-module.exports = { schema };
+module.exports = {
+  schema,
+  "schemaAsString": JSON.stringify(schema, null, 2)
+};
