@@ -1142,6 +1142,10 @@ var Booking = function Booking() {
 "use strict";
 
 
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
+
 /*eslint quote-props: ["error", "always"]*/
 
 /*eslint-env es6*/
@@ -1176,7 +1180,8 @@ var schema = {
   }]
 };
 module.exports = {
-  schema: schema
+  schema: schema,
+  "schemaAsString": (0, _stringify.default)(schema, null, 2)
 };
 
 /***/ }),
@@ -12193,7 +12198,7 @@ var Home = function Home() {
   }, "Google Analytics")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section",
     style: {
-      pageBreakBefore: 'always'
+      pageBreakBefore: "always"
     },
     __source: {
       fileName: _jsxFileName,
@@ -12320,7 +12325,17 @@ var Home = function Home() {
       lineNumber: 125
     },
     __self: this
-  }, "Hyderabad, India")))))));
+  }, "Hyderabad, India")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    type: "application/ld+json",
+    dangerouslySetInnerHTML: {
+      __html: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schemaAsString"]
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);

@@ -4,7 +4,7 @@ import Head from "../components/head";
 
 import "./_base.scss";
 
-import { schema as Person } from "../data/schema/001_person-main";
+import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
 
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
@@ -100,7 +100,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="section" style={{pageBreakBefore: 'always'}}>
+      <div className="section" style={{ pageBreakBefore: "always" }}>
         <div className="main-heading">Experience</div>
         <div className="experience-holder">
           <BookingExperience />
@@ -128,6 +128,9 @@ const Home = () => (
         </div>
       </div>
     </div>
+
+    {/* Microformats / JsonLD */}
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaAsString }} />
   </div>
 );
 
