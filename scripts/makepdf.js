@@ -12,7 +12,7 @@ async function generatePdf() {
   const page = await browser.newPage();
 
   // Route the headless browser to the webpage for printing
-  await page.goto("http://localhost:3000/"); // add your url
+  await page.goto("http://localhost:3000/?pdf"); // add your url
 
   // Print the page as pdf
   const buffer = await page.pdf({
