@@ -142,6 +142,10 @@ h3 {
   padding: 0;
 }
 
+.job-desc__bullets {
+  list-style: disc inside;
+}
+
 /* Media Queries */
 
 
@@ -199,6 +203,12 @@ h3 {
   .fab {
     margin: 1rem 1rem 0;
   }
+
+  .experience-holder,
+  .education-holder {
+    border-left: 0;
+    padding: 0;
+  }  
 }
 
 @media only print {

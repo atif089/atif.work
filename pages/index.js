@@ -61,6 +61,16 @@ const Home = () => (
         </div>
       </div>
 
+      <div className="section">
+        <div className="main-heading">Experience</div>
+        <div className="experience-holder">
+          <BookingExperience />
+          <AmazonExperience />
+          <ThinkfulExperience />
+          <UHGExperience />
+        </div>
+      </div>
+
       <div className="section achievements">
         <div className="columns">
           <div className="column">
@@ -97,16 +107,6 @@ const Home = () => (
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="section" style={{ pageBreakBefore: "always" }}>
-        <div className="main-heading">Experience</div>
-        <div className="experience-holder">
-          <BookingExperience />
-          <AmazonExperience />
-          <ThinkfulExperience />
-          <UHGExperience />
         </div>
       </div>
 
