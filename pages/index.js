@@ -1,63 +1,79 @@
 import React from "react";
-import Link from "next/link";
 import Head from "../components/head";
+import dynamic from "next/dynamic";
 
 import "./_base.scss";
 
 import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
 
+import PDFOnly from "../components/PDFOnly";
+
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
-import ThinkfulExperience from "../data/experience/thinkful";
-import UHGExperience from "../data/experience/uhg";
+
+// Lazy load these components
+const ProfileIcons = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/ProfileIcons"));
+const ThinkfulExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/thinkful"));
+const UHGExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/uhg"));
+const Skills = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/Skills"));
 
 const Home = () => (
   <div id="app">
-    <Head title={`${Person.name} | Personal Website | C.V | Resume`} />
+    <Head title={`${Person.name} | C.V | Resume | Personal Website | atif.work`} />
 
     <div className="container">
       <div className="section">
         <div className="columns is-vertical-center">
           <div className="column is-one-fifth profile-pic__container">
-            <img className="profile-pic" src="/static/atif-mohammed.jpg" alt="" />
+            <img
+              className="profile-pic"
+              alt="Ameenuddin Atif Mohammed"
+              loading="lazy"
+              src="/static/atif-mohammed-150.webp"
+              srcSet="/static/atif-mohammed-225.webp 1.5x,
+                      /static/atif-mohammed-300.webp 2x,
+                        /static/atif-mohammed-450.webp 3x"
+            />
           </div>
           <div className=" column title__container">
-            <span className="title">{Person.name.toUpperCase()}</span>
+            <span className="title">{Person.name}</span>
           </div>
           <div className="column is-one-fifth is-contact">
             <p>{Person.telephone}</p>
             <p>{Person.email}</p>
-            <p className="icons">
-              {Person.sameAs.map((url, i) => {
-                if (url.indexOf("linkedin") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-linkedin" />
-                      </a>
-                    </Link>
-                  );
-                } else if (url.indexOf("github") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-github" />
-                      </a>
-                    </Link>
-                  );
-                } else if (url.indexOf("atif.work") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-adobe" />
-                      </a>
-                    </Link>
-                  );
-                }
-                return null;
-              })}
-            </p>
+            <ProfileIcons person={Person} />
           </div>
+        </div>
+      </div>
+
+      <div className="section achievements" style={{ pageBreakInside: "avoid" }}>
+        <div className="columns">
+          <div className="column is-three-fifths">
+            <div className="main-heading">Achievements</div>
+            <div className="achievements--list">
+              <h3>Amazon Patent Award</h3>
+              <p>
+                Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number  <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
+              </p>
+
+              <h3>Front End Development Mentor</h3>
+              <p>Mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
+
+              <PDFOnly>
+                <h3>Freelance Consulting</h3>
+                <p>
+                  Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or
+                  better feedback on 12+ projects in a year.
+                </p>
+                <p>
+                  Offered development and consulting for 12 years to small and medium business owners from family and
+                  friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile
+                  development, online presence, and business automation.
+                </p>
+              </PDFOnly>
+            </div>
+          </div>
+          <div className="column">{process.browser && <Skills />}</div>
         </div>
       </div>
 
@@ -66,47 +82,12 @@ const Home = () => (
         <div className="experience-holder">
           <BookingExperience />
           <AmazonExperience />
-          <ThinkfulExperience />
-          <UHGExperience />
-        </div>
-      </div>
-
-      <div className="section achievements">
-        <div className="columns">
-          <div className="column">
-            <div className="main-heading">Achievements</div>
-            <div className="achievements--list">
-              <h3>Amazon Patent Award</h3>
-              <p>
-                Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application
-                Number - 13/924,077)
-              </p>
-              <h3>Front End Development Mentor</h3>
-              <p>mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
-              <div className="cv-only">
-                <h3>Freelance Consulting</h3>
-                <p>
-                  Offered freelance consulting and development for about 8 years using various freelance platforms like
-                  Elance, oDesk etc. and also worked with offline Small–Medium Businesses.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="column">
-            <div className="main-heading">Skills</div>
-            <div className="skill-cloud">
-              <p>
-                <span>HTML</span> <span>CSS</span> <span>Javascript</span> <span>NodeJS</span>
-                <span>MySQL / MariaDB</span> <span>MongoDB</span> <span>Rethink DB</span>
-                <span>React</span> <span>Redux</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
-                <span>Google Drive Scripts</span> <span>Postman</span> <span>Git CLI</span>
-                <span>AWS</span> <span>Google Cloud Platform</span>
-                <span>Nginx</span> <span>Apache</span> <span>PHP/WordPress</span>
-                <span>Terraform</span> <span>Docker</span> <span>Vagrant</span> <span>Linux / Bash</span>
-                <span>A/B Testing</span> <span>Google Analytics</span>
-              </p>
-            </div>
-          </div>
+          {process.browser && (
+            <>
+              <ThinkfulExperience />
+              <UHGExperience />
+            </>
+          )}
         </div>
       </div>
 

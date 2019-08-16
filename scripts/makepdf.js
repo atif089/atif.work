@@ -5,7 +5,8 @@ const fs = require("fs");
 
 async function generatePdf() {
   const browser = await puppeteer.launch({
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    headless: true
   });
 
   // Open a new page with the headless browser
@@ -13,6 +14,9 @@ async function generatePdf() {
 
   // Route the headless browser to the webpage for printing
   await page.goto("http://localhost:3000/?pdf"); // add your url
+
+  // Wait for lazy loaded the components to mount
+  await page.waitFor(5000);
 
   // Print the page as pdf
   const buffer = await page.pdf({
