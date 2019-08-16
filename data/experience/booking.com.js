@@ -12,8 +12,20 @@ const Booking = () => (
 
     <div className="column">
       <h2 className="job-title">
-        FrontEnd Developer <PDFOnly>&amp; Team Lead</PDFOnly>
+        FrontEnd Developer &amp; Team Lead
       </h2>
+
+      <div className="role__container">
+        <h3 className="team-title is-size-6">Partner Incentives</h3>
+        <div className="job-desc">
+          <p style={{ paddingBottom: "10px" }}>Managing a team of 3 people and working together on:</p>
+          <ul className="job-desc__bullets">
+            <li>Leading the team running inventice campaigns for accommodation partners enabling them to generate higher revenue based on their sales performance</li>
+            <li>Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow</li>
+            <li>Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual performance and deliver feedback</li>
+           </ul>
+        </div>
+      </div>
 
       <div className="role__container">
         <h3 className="team-title is-size-6">Customer Service Innovations Team</h3>
@@ -61,13 +73,19 @@ const Booking = () => (
               and producing individual reports from spreadsheets.
             </li>
             <PDFOnly>
-              <li>Over a span of 4 months, I worked with and successfully integrated 38 people in the company.</li>
               <li>
-                I was also a part of a pilot program called "incubator teams" where the new Engineers along with a new
-                Product Owner worked on researching a topic that could produce high value to the company in the future.
-                One such topic that I worked for, the impact of website loading and interaction speed went on successful
-                and eventually converted into a track called "Web Velocity" which is currently supported by 15+ people.
+                Over a span of 4 months, I worked with and successfully integrated 38 people in the company with an
+                average of 14 reports at any time.
               </li>
+              <PDFOnly>
+                <li>
+                  I was also a part of a pilot program called "incubator teams" where the new Engineers along with a new
+                  Product Owner worked on researching a topic that could produce high value to the company in the
+                  future. One such topic that I worked for, the impact of website loading and interaction speed went on
+                  successful and eventually converted into a track called "Web Velocity" which is currently supported by
+                  25+ people.
+                </li>
+              </PDFOnly>
             </PDFOnly>
           </ul>
         </div>

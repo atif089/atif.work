@@ -3,17 +3,23 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^8.1.0",
-    "node-sass": "^4.12.0",
+    "bulma": "^0.8.0",
+    "next": "^9.1.4",
+    "node-sass": "^4.13.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "puppeteer": "^1.18.0"
+    "puppeteer": "^2.0.0",
+    "@next/bundle-analyzer": "^9.1.4"
   }
 }
