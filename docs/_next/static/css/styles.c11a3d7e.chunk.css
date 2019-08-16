@@ -112,6 +112,9 @@ h3 {
   margin: 20px 0 0;
   padding: 0; }
 
+.job-desc__bullets {
+  list-style: disc inside; }
+
 /* Media Queries */
 @media only screen {
   .cv-only {
@@ -145,7 +148,11 @@ h3 {
     font-size: 1.1rem;
     font-weight: bold; }
   .fab {
-    margin: 1rem 1rem 0; } }
+    margin: 1rem 1rem 0; }
+  .experience-holder,
+  .education-holder {
+    border-left: 0;
+    padding: 0; } }
 
 @media only print {
   html {

@@ -1,5 +1,32 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/PDFOnly/index.js":
+/*!*************************************!*\
+  !*** ./components/PDFOnly/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* global URLSearchParams, window */
+
+
+
+var PDFOnly = function PDFOnly(props) {
+  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_0__["useRouter"])();
+  if (router.query && router.query.pdf !== undefined) return props.children;
+  return null;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PDFOnly);
+
+/***/ }),
+
 /***/ "./components/head.js":
 /*!****************************!*\
   !*** ./components/head.js ***!
@@ -227,6 +254,9 @@ var _jsxFileName = "D:\\GitHub\\atif.work\\data\\experience\\amazon.com.js";
 var Booking = function Booking() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns",
+    style: {
+      pageBreakInside: "avoid"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 2
@@ -313,166 +343,61 @@ var Booking = function Booking() {
       lineNumber: 16
     },
     __self: this
-  }, "Worked on implementation of early UI model, PoC for Amazon Local Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "jQuery"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, "Amazon UI (AUI)")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Worked on implementation of early UI model, PoC for Amazon Local Services"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 21
     },
     __self: this
   }, "Amazon Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 23
     },
     __self: this
-  }, "Working on Web Development, Traffic Analysis, A/B Testing and Optimization for Amazon Marketing Websites in US and Europe (services.amazon.com, services.amazon.co.uk, services.amazon.fr, services.amazon.de, services.amazon.es and services.amazon.it)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "A/B Testing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "jQuery")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Working on Web Development, Traffic Analysis, A/B Testing and Optimization for Amazon Marketing Websites in US and Europe (services.amazon.com, services.amazon.co.uk, services.amazon.fr, services.amazon.de, services.amazon.es and services.amazon.it)."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 32
     },
     __self: this
   }, "TCS (Tenancy Configuration System)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 34
     },
     __self: this
-  }, "Worked on the UI for a web based application which can orchestrate generation of configuration sets and monitoring configuration for new website launches"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "jQuery"))))));
+  }, "Worked on the UI for a web based application which can orchestrate generation of configuration sets and monitoring configuration for new website launches")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Booking);
@@ -490,7 +415,9 @@ var Booking = function Booking() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/PDFOnly */ "./components/PDFOnly/index.js");
 var _jsxFileName = "D:\\GitHub\\atif.work\\data\\experience\\booking.com.js";
+
 
 
 var Booking = function Booking() {
@@ -498,396 +425,279 @@ var Booking = function Booking() {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "company",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 6
     },
     __self: this
   }, "Booking.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "location",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 7
     },
     __self: this
   }, "Amsterdam, Netherlands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, "2014 Aug"), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, "Current"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "job-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
-  }, "FrontEnd Developer & Onboarding Lead"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "FrontEnd Developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "& Team Lead")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 19
     },
     __self: this
   }, "Customer Service Innovations Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
+    style: {
+      paddingBottom: "10px"
     },
-    __self: this
-  }, "Identify and eliminating friction in a customers journey to contact Booking.com. Analyzing common customer behavior and identify patterns customer service ticket and innovating solutions to reduce human handling and improve automation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "Perl"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Managing a team of 5 people and worked together on:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
-  }, "React"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "A/B Testing")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "role__container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "team-title is-size-6",
+  }, "Identify and eliminating friction for customers trying to contact Booking.com, and at the same time optimizing the UI so maintain clarity, consistency, and context to both the customer and the support staff."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "Onboarding Leading (Management)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "job-desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Leading the onboarding journey for new hires and onboarding them in their first few weeks. Setting up trainings, tracking their development and providing feedback (and automating these processes using Google Drive Scripts). Identifying skills, strengths, weaknesses and mapping interests of the developers and match them to place them within different teams in the company. Contributing to development of advanced tools to make onboarding process smoother."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Team Leading"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Trainings"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Agile / Scrum / Retrospectives"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Capacity Planning"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "React")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Analyzing common customer behavior and identify patterns in customer service tickets and develop innovative solutions to reduce human handling and foster automation.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
+    style: {
+      pageBreakBefore: "avoid",
+      pageBreakInside: "auto"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Onboarding Lead"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-desc__bullets",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Leading and managing the onboarding journey for new hires right from before they join the company until the end of their probation. Setting up training, tracking their overall development and providing developmental feedback."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Identifying skills, strengths, weaknesses and mapping interests of the developers and match them to place them within different teams in the company."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "Contributing to the development of advanced tools to make the onboarding process smoother. For example, I spent on creating a lot of Google Drive Scripts that helped automate redundant processes like sending emails, grooming backlog, setting up automatic calendar invites for important training, tracking feedback and producing individual reports from spreadsheets."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Over a span of 4 months, I worked with and successfully integrated 38 people in the company."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "I was also a part of a pilot program called \"incubator teams\" where the new Engineers along with a new Product Owner worked on researching a topic that could produce high value to the company in the future. One such topic that I worked for, the impact of website loading and interaction speed went on successful and eventually converted into a track called \"Web Velocity\" which is currently supported by 15+ people."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "role__container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "team-title is-size-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
     },
     __self: this
   }, "Landing Pages Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "In Landing Pages Team, I work on making user research, applying user research data in terms of A/B Tests and optimizing landing pages (mobile, tablet and web) for traffic sources from meta partners, SEO etc. and building tools to automate processes using Bash and Node.JS. Also, supported and facilitated onboarding new developers on the team."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Perl"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "NodeJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "A/B Testing")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "role__container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "team-title is-size-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, "Destination Finder Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "job-desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "As a JavaScript developer in Destination Finder, I worked on rewriting the core routing component of the system and a new search box along with routine Frontend / Javascript tasks. I also implemented Google Analytics to track user\u2019s behavior on different pages and at different actions on a page. These metrics along with A/B Testing helped on decision making for better usability and conversion."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Perl"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "A/B Testing")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "role__container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "team-title is-size-6",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 78
     },
     __self: this
-  }, "Mobile and Tablet Teams"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "job-desc",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     },
     __self: this
-  }, "I worked for over a year on parts of Mobile and Tablet website. My daily activities include generating experiment ideas for A/B Testing, prioritizing and implementing them. I also worked on optimizing the mobile website for better performance.\u2003"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
+  }, "Worked on conducting user research, applying the learnings from user research in form of A/B Tests to optimize Booking.com landing pages (mobile, tablet and web) serving traffic from various sources like meta partners, SEO, PPC, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Built tools to automate processes like linting checks, boilerplate to create new A/B tests, etc. using Bash and Node.JS."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 89
     },
     __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Also, supported and facilitated onboarding new developers on the team.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 94
     },
     __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 95
     },
     __self: this
-  }, "Perl"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Other Teams"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 96
     },
     __self: this
-  }, "JavaScript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 97
     },
     __self: this
-  }, "A/B Testing"))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "Worked on rewriting the core routing component of the system and a new search box along with routine Frontend / Javascript tasks. I also worked on implementing Google Analytics events and dimension for various user interactions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Worked for over a year on parts of Mobile and Tablet website. Other daily activities include generating experiment ideas for A/B Testing, prioritizing and implementing them. I also worked on optimizing the mobile website for better performance.\u2003"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Booking);
@@ -1100,32 +910,7 @@ var Booking = function Booking() {
       lineNumber: 15
     },
     __self: this
-  }, "Working on development and maintenance of client portals for UHC M&R Insurance Solutions. Work involved integrating UI Comps supplied by onshore resource into the existing website built upon Springs Framework"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "tech-used",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Javascript"))))));
+  }, "Working on development and maintenance of client portals for UHC M&R Insurance Solutions. Work involved integrating UI Comps supplied by onshore resource into the existing website built upon Springs Framework")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Booking);
@@ -7925,12 +7710,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_43fdc562a96c55866f3e ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -10128,12 +9913,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_43fdc562a96c55866f3e ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -11691,12 +11476,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_43fdc562a96c55866f3e ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_afa7b25a60452594c240 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -11935,315 +11720,315 @@ var Home = function Home() {
 
     return null;
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section achievements",
+    className: "section",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns",
+    className: "main-heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "main-heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, "Achievements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "achievements--list",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, "Amazon Patent Award"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, "Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application Number - 13/924,077)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, "Front End Development Mentor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, "mentored over 25 students for Front End Development (HTML, CSS, JS)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "cv-only",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, "Freelance Consulting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, "Offered freelance consulting and development for about 8 years using various freelance platforms like Elance, oDesk etc. and also worked with offline Small\u2013Medium Businesses.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "main-heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "skill-cloud",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "Javascript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "NodeJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }, "MySQL / MariaDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }, "MongoDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }, "Rethink DB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "React"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "Redux"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "WebPack"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "jQuery"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "Puppeteer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "Google Drive Scripts"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "Postman"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "Git CLI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  }, "AWS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  }, "Google Cloud Platform"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "Nginx"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "Apache"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "PHP/WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "Terraform"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "Docker"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "Vagrant"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "Linux / Bash"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  }, "A/B Testing"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  }, "Google Analytics")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "section",
-    style: {
-      pageBreakBefore: "always"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "main-heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104
     },
     __self: this
   }, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experience-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 67
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 68
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_thinkful__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 69
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_uhg__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 70
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "section achievements",
+    style: {
+      pageBreakInside: "avoid"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-three-fifths",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "main-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "Achievements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "achievements--list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Amazon Patent Award"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application Number - 13/924,077)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, "Front End Development Mentor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "mentored over 25 students for Front End Development (HTML, CSS, JS)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cv-only",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "Freelance Consulting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "Offered freelance consulting and development for about 8 years using various freelance platforms like Elance, oDesk etc. and also worked with offline Small\u2013Medium Businesses.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "main-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "skill-cloud",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "Javascript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "NodeJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "MySQL / MariaDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "MongoDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "Rethink DB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "React"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Redux"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "WebPack"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "jQuery"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Puppeteer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Google Drive Scripts"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Postman"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Git CLI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "AWS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Google Cloud Platform"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "Nginx"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "Apache"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "PHP/WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Terraform"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Docker"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Vagrant"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, "Linux / Bash"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "A/B Testing"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "Google Analytics")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
@@ -12354,14 +12139,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_43fdc562a96c55866f3e":
+/***/ "dll-reference dll_afa7b25a60452594c240":
 /*!*******************************************!*\
-  !*** external "dll_43fdc562a96c55866f3e" ***!
+  !*** external "dll_afa7b25a60452594c240" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_43fdc562a96c55866f3e;
+module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 

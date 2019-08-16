@@ -71,9 +71,9 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="section achievements">
+      <div className="section achievements" style={{ pageBreakInside: "avoid" }}>
         <div className="columns">
-          <div className="column">
+          <div className="column is-three-fifths">
             <div className="main-heading">Achievements</div>
             <div className="achievements--list">
               <h3>Amazon Patent Award</h3>
