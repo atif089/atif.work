@@ -61,13 +61,19 @@ const Booking = () => (
               and producing individual reports from spreadsheets.
             </li>
             <PDFOnly>
-              <li>Over a span of 4 months, I worked with and successfully integrated 38 people in the company.</li>
               <li>
-                I was also a part of a pilot program called "incubator teams" where the new Engineers along with a new
-                Product Owner worked on researching a topic that could produce high value to the company in the future.
-                One such topic that I worked for, the impact of website loading and interaction speed went on successful
-                and eventually converted into a track called "Web Velocity" which is currently supported by 15+ people.
+                Over a span of 4 months, I worked with and successfully integrated 38 people in the company with an
+                average of 14 reports at any time.
               </li>
+              <PDFOnly>
+                <li>
+                  I was also a part of a pilot program called "incubator teams" where the new Engineers along with a new
+                  Product Owner worked on researching a topic that could produce high value to the company in the
+                  future. One such topic that I worked for, the impact of website loading and interaction speed went on
+                  successful and eventually converted into a track called "Web Velocity" which is currently supported by
+                  25+ people.
+                </li>
+              </PDFOnly>
             </PDFOnly>
           </ul>
         </div>
