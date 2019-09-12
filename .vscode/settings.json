@@ -1,0 +1,6 @@
+{
+  "search.exclude": {
+    "**/docs": true,
+    "**/_next": true
+  }
+}
