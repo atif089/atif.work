@@ -5,6 +5,7 @@ import Head from "../components/head";
 import "./_base.scss";
 
 import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
+import PDFOnly from "../components/PDFOnly";
 
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
@@ -13,7 +14,7 @@ import UHGExperience from "../data/experience/uhg";
 
 const Home = () => (
   <div id="app">
-    <Head title={`${Person.name} | Personal Website | C.V | Resume`} />
+    <Head title={`${Person.name} | C.V | Resume | Personal Website | atif.work`} />
 
     <div className="container">
       <div className="section">
@@ -81,15 +82,24 @@ const Home = () => (
                 Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application
                 Number - 13/924,077)
               </p>
+
               <h3>Front End Development Mentor</h3>
-              <p>mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
-              <div className="cv-only">
+              <p>Mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
+
+              <PDFOnly>
                 <h3>Freelance Consulting</h3>
                 <p>
-                  Offered freelance consulting and development for about 8 years using various freelance platforms like
-                  Elance, oDesk etc. and also worked with offline Small–Medium Businesses.
+                  <strong>
+                    Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or
+                    better feedback on 12+ projects in a year.
+                  </strong>
                 </p>
-              </div>
+                <p>
+                  Offered development and consulting for 12 years to small and medium business owners from family and
+                  friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile
+                  development, online presence, and business automation.
+                </p>
+              </PDFOnly>
             </div>
           </div>
           <div className="column">
@@ -101,7 +111,7 @@ const Home = () => (
                 <span>React</span> <span>Redux</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
                 <span>Google Drive Scripts</span> <span>Postman</span> <span>Git CLI</span>
                 <span>AWS</span> <span>Google Cloud Platform</span>
-                <span>Nginx</span> <span>Apache</span> <span>PHP/WordPress</span>
+                <span>Nginx</span> <span>Apache</span> <span>PHP</span> <span>WordPress / WooCommerce</span>
                 <span>Terraform</span> <span>Docker</span> <span>Vagrant</span> <span>Linux / Bash</span>
                 <span>A/B Testing</span> <span>Google Analytics</span>
               </p>
