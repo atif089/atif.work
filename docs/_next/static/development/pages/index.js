@@ -605,96 +605,102 @@ var Booking = function Booking() {
       lineNumber: 64
     },
     __self: this
-  }, "Over a span of 4 months, I worked with and successfully integrated 38 people in the company."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Over a span of 4 months, I worked with and successfully integrated 38 people in the company with an average of 14 reports at any time."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 68
     },
     __self: this
-  }, "I was also a part of a pilot program called \"incubator teams\" where the new Engineers along with a new Product Owner worked on researching a topic that could produce high value to the company in the future. One such topic that I worked for, the impact of website loading and interaction speed went on successful and eventually converted into a track called \"Web Velocity\" which is currently supported by 15+ people."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "I was also a part of a pilot program called \"incubator teams\" where the new Engineers along with a new Product Owner worked on researching a topic that could produce high value to the company in the future. One such topic that I worked for, the impact of website loading and interaction speed went on successful and eventually converted into a track called \"Web Velocity\" which is currently supported by 25+ people.")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 83
     },
     __self: this
   }, "Landing Pages Team"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 86
     },
     __self: this
   }, "Worked on conducting user research, applying the learnings from user research in form of A/B Tests to optimize Booking.com landing pages (mobile, tablet and web) serving traffic from various sources like meta partners, SEO, PPC, etc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 91
     },
     __self: this
   }, "Built tools to automate processes like linting checks, boilerplate to create new A/B tests, etc. using Bash and Node.JS."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 95
     },
     __self: this
   }, "Also, supported and facilitated onboarding new developers on the team.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 101
     },
     __self: this
   }, "Other Teams"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 104
     },
     __self: this
   }, "Worked on rewriting the core routing component of the system and a new search box along with routine Frontend / Javascript tasks. I also worked on implementing Google Analytics events and dimension for various user interactions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 109
     },
     __self: this
   }, "Worked for over a year on parts of Mobile and Tablet website. Other daily activities include generating experiment ideas for A/B Testing, prioritizing and implementing them. I also worked on optimizing the mobile website for better performance.\u2003"))))));
@@ -11536,11 +11542,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_base_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data/schema/001_person-main */ "./data/schema/001_person-main.js");
 /* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _data_experience_booking_com__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/experience/booking.com */ "./data/experience/booking.com.js");
-/* harmony import */ var _data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/experience/amazon.com */ "./data/experience/amazon.com.js");
-/* harmony import */ var _data_experience_thinkful__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../data/experience/thinkful */ "./data/experience/thinkful.js");
-/* harmony import */ var _data_experience_uhg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/experience/uhg */ "./data/experience/uhg.js");
+/* harmony import */ var _components_PDFOnly__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PDFOnly */ "./components/PDFOnly/index.js");
+/* harmony import */ var _data_experience_booking_com__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/experience/booking.com */ "./data/experience/booking.com.js");
+/* harmony import */ var _data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../data/experience/amazon.com */ "./data/experience/amazon.com.js");
+/* harmony import */ var _data_experience_thinkful__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/experience/thinkful */ "./data/experience/thinkful.js");
+/* harmony import */ var _data_experience_uhg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../data/experience/uhg */ "./data/experience/uhg.js");
 var _jsxFileName = "D:\\GitHub\\atif.work\\pages\\index.js";
+
 
 
 
@@ -11556,42 +11564,42 @@ var Home = function Home() {
     id: "app",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_head__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "".concat(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name, " | Personal Website | C.V | Resume"),
+    title: "".concat(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name, " | C.V | Resume | Personal Website | atif.work"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns is-vertical-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-fifth profile-pic__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -11600,47 +11608,47 @@ var Home = function Home() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: " column title__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name.toUpperCase())), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-fifth is-contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].telephone), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "icons",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].sameAs.map(function (url, i) {
@@ -11650,21 +11658,21 @@ var Home = function Home() {
         href: url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fab fa-linkedin",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         },
         __self: this
       })));
@@ -11674,21 +11682,21 @@ var Home = function Home() {
         href: url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fab fa-github",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         },
         __self: this
       })));
@@ -11698,21 +11706,21 @@ var Home = function Home() {
         href: url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fab fa-adobe",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         },
         __self: this
       })));
@@ -11723,45 +11731,45 @@ var Home = function Home() {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 66
     },
     __self: this
   }, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experience-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_thinkful__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_uhg__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_thinkful__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_data_experience_uhg__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11771,343 +11779,360 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 75
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-three-fifths",
+    className: "columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "main-heading",
+    className: "column is-three-fifths",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "main-heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
     },
     __self: this
   }, "Achievements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "achievements--list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 79
     },
     __self: this
-  }, "Amazon Patent Award"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     },
     __self: this
+  }, "Amazon Patent Award"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
   }, "Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application Number - 13/924,077)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Front End Development Mentor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, "mentored over 25 students for Front End Development (HTML, CSS, JS)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "cv-only",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, "Front End Development Mentor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
+  }, "Mentored over 25 students for Front End Development (HTML, CSS, JS)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
   }, "Freelance Consulting"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 91
     },
     __self: this
-  }, "Offered freelance consulting and development for about 8 years using various freelance platforms like Elance, oDesk etc. and also worked with offline Small\u2013Medium Businesses.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or better feedback on 12+ projects in a year.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, "Offered development and consulting for 12 years to small and medium business owners from family and friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile development, online presence, and business automation.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 105
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 106
     },
     __self: this
   }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "skill-cloud",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 107
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 108
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 109
     },
     __self: this
   }, "HTML"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 109
     },
     __self: this
   }, "CSS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 109
     },
     __self: this
   }, "Javascript"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 109
     },
     __self: this
   }, "NodeJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 110
     },
     __self: this
   }, "MySQL / MariaDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 110
     },
     __self: this
   }, "MongoDB"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 110
     },
     __self: this
   }, "Rethink DB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, "React"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, "Redux"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, "WebPack"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, "jQuery"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, "Puppeteer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 112
     },
     __self: this
   }, "Google Drive Scripts"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 112
     },
     __self: this
   }, "Postman"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 112
     },
     __self: this
   }, "Git CLI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 113
     },
     __self: this
   }, "AWS"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 113
     },
     __self: this
   }, "Google Cloud Platform"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 114
     },
     __self: this
   }, "Nginx"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 114
     },
     __self: this
   }, "Apache"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 114
     },
     __self: this
-  }, "PHP/WordPress"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "PHP"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 114
+    },
+    __self: this
+  }, "WordPress / WooCommerce"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
     },
     __self: this
   }, "Terraform"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 115
     },
     __self: this
   }, "Docker"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 115
     },
     __self: this
   }, "Vagrant"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 115
     },
     __self: this
   }, "Linux / Bash"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 116
     },
     __self: this
   }, "A/B Testing"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 116
     },
     __self: this
   }, "Google Analytics")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 124
     },
     __self: this
   }, "Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "education-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 129
     },
     __self: this
   }, "2007 Aug"), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 129
     },
     __self: this
   }, "2011 June"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 132
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "qualification-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 133
     },
     __self: this
   }, "Bachelor of Technology (Information Technology)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "college",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 134
     },
     __self: this
   }, "VIF College of Engineering and Technology, 2007 \u2013 2011"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "location",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 135
     },
     __self: this
   }, "Hyderabad, India")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -12117,7 +12142,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 143
     },
     __self: this
   }));
