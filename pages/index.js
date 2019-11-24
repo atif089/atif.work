@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Head from "../components/head";
+import dynamic from "next/dynamic";
 
 import "./_base.scss";
 
@@ -9,8 +10,10 @@ import PDFOnly from "../components/PDFOnly";
 
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
-import ThinkfulExperience from "../data/experience/thinkful";
-import UHGExperience from "../data/experience/uhg";
+
+const ThinkfulExperience = dynamic(import("../data/experience/thinkful"));
+const UHGExperience = dynamic(import("../data/experience/uhg"));
+const Skills = dynamic(import("../components/Skills"));
 
 const Home = () => (
   <div id="app">
@@ -20,7 +23,13 @@ const Home = () => (
       <div className="section">
         <div className="columns is-vertical-center">
           <div className="column is-one-fifth profile-pic__container">
-            <img className="profile-pic" src="/static/atif-mohammed.jpg" alt="" />
+            <img
+              className="profile-pic"
+              src="/static/atif-mohammed-150.jpg"
+              srcset="/static/atif-mohammed.jpg 2x"
+              alt="Ameenuddin Atif Mohammed"
+              loading="lazy"
+            />
           </div>
           <div className=" column title__container">
             <span className="title">{Person.name.toUpperCase()}</span>
@@ -67,8 +76,12 @@ const Home = () => (
         <div className="experience-holder">
           <BookingExperience />
           <AmazonExperience />
-          <ThinkfulExperience />
-          <UHGExperience />
+          {process.browser && (
+            <>
+              <ThinkfulExperience />
+              <UHGExperience />
+            </>
+          )}
         </div>
       </div>
 
@@ -102,21 +115,7 @@ const Home = () => (
               </PDFOnly>
             </div>
           </div>
-          <div className="column">
-            <div className="main-heading">Skills</div>
-            <div className="skill-cloud">
-              <p>
-                <span>HTML</span> <span>CSS</span> <span>Javascript</span> <span>NodeJS</span>
-                <span>MySQL / MariaDB</span> <span>MongoDB</span> <span>Rethink DB</span>
-                <span>React</span> <span>Redux</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
-                <span>Google Drive Scripts</span> <span>Postman</span> <span>Git CLI</span>
-                <span>AWS</span> <span>Google Cloud Platform</span>
-                <span>Nginx</span> <span>Apache</span> <span>PHP</span> <span>WordPress / WooCommerce</span>
-                <span>Terraform</span> <span>Docker</span> <span>Vagrant</span> <span>Linux / Bash</span>
-                <span>A/B Testing</span> <span>Google Analytics</span>
-              </p>
-            </div>
-          </div>
+          <div className="column">{process.browser && <Skills />}</div>
         </div>
       </div>
 
