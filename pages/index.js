@@ -1,12 +1,14 @@
 import React from "react";
-import Link from "next/link";
 import Head from "../components/head";
 import dynamic from "next/dynamic";
 
 import "./_base.scss";
 
 import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
+
 import PDFOnly from "../components/PDFOnly";
+
+import ProfileIcons from "../components/ProfileIcons";
 
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
@@ -26,7 +28,7 @@ const Home = () => (
             <img
               className="profile-pic"
               src="/static/atif-mohammed-150.jpg"
-              srcset="/static/atif-mohammed.jpg 2x"
+              srcSet="/static/atif-mohammed.jpg 2x"
               alt="Ameenuddin Atif Mohammed"
               loading="lazy"
             />
@@ -37,36 +39,7 @@ const Home = () => (
           <div className="column is-one-fifth is-contact">
             <p>{Person.telephone}</p>
             <p>{Person.email}</p>
-            <p className="icons">
-              {Person.sameAs.map((url, i) => {
-                if (url.indexOf("linkedin") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-linkedin" />
-                      </a>
-                    </Link>
-                  );
-                } else if (url.indexOf("github") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-github" />
-                      </a>
-                    </Link>
-                  );
-                } else if (url.indexOf("atif.work") > -1) {
-                  return (
-                    <Link key={i} href={url}>
-                      <a target="_blank">
-                        <i className="fab fa-adobe" />
-                      </a>
-                    </Link>
-                  );
-                }
-                return null;
-              })}
-            </p>
+            <ProfileIcons person={Person} />
           </div>
         </div>
       </div>
@@ -102,10 +75,8 @@ const Home = () => (
               <PDFOnly>
                 <h3>Freelance Consulting</h3>
                 <p>
-                  <strong>
-                    Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or
-                    better feedback on 12+ projects in a year.
-                  </strong>
+                  Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or
+                  better feedback on 12+ projects in a year.
                 </p>
                 <p>
                   Offered development and consulting for 12 years to small and medium business owners from family and

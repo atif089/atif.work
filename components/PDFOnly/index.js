@@ -1,8 +1,4 @@
-/* global URLSearchParams, window */
-
 import { useRouter } from "next/router";
-
-import React from "react";
 
 const PDFOnly = (props) => {
   const router = useRouter();
