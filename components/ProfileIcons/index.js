@@ -14,7 +14,8 @@ const ProfileIcons = (props) => {
   return (
     <>
       <p className="icons">
-        {Person.sameAs.map((url, i) => {
+        {Person.sameAs.map((realURL, i) => {
+          const url = realURL.replace("https:", "");
           if (url.indexOf("linkedin") > -1) {
             return (
               <Link key={i} href={url}>

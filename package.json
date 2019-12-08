@@ -19,6 +19,7 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^2.0.0",
+    "@next/bundle-analyzer": "^9.1.4"
   }
 }

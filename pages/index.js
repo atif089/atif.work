@@ -8,14 +8,14 @@ import { schema as Person, schemaAsString } from "../data/schema/001_person-main
 
 import PDFOnly from "../components/PDFOnly";
 
-import ProfileIcons from "../components/ProfileIcons";
-
 import BookingExperience from "../data/experience/booking.com";
 import AmazonExperience from "../data/experience/amazon.com";
 
-const ThinkfulExperience = dynamic(import("../data/experience/thinkful"));
-const UHGExperience = dynamic(import("../data/experience/uhg"));
-const Skills = dynamic(import("../components/Skills"));
+// Lazy load these components
+const ProfileIcons = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/ProfileIcons"));
+const ThinkfulExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/thinkful"));
+const UHGExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/uhg"));
+const Skills = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/Skills"));
 
 const Home = () => (
   <div id="app">
