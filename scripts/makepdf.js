@@ -16,7 +16,7 @@ async function generatePdf() {
   await page.goto("http://localhost:3000/?pdf"); // add your url
 
   // Wait for lazy loaded the components to mount
-  await page.waitFor(10000);
+  await page.waitFor(5000);
 
   // Print the page as pdf
   const buffer = await page.pdf({

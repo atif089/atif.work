@@ -33,7 +33,6 @@ const Head = props => (
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" /> */}
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet" />
   </NextHead>
 )
