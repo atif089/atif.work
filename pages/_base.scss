@@ -2,7 +2,6 @@
 @import "../node_modules/bulma/sass/base/_all";
 @import "../node_modules/bulma/sass/grid/_all";
 
-
 html {
   background: #f6f6f6;
 }
@@ -190,10 +189,6 @@ h3 {
     text-align: center;
     margin: 0;
     width: auto;
-  }
-
-  .profile-pic {
-    max-width: 120px;
   }
 
   .title {

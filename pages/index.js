@@ -27,10 +27,12 @@ const Home = () => (
           <div className="column is-one-fifth profile-pic__container">
             <img
               className="profile-pic"
-              src="/static/atif-mohammed-150.jpg"
-              srcSet="/static/atif-mohammed.jpg 2x"
               alt="Ameenuddin Atif Mohammed"
               loading="lazy"
+              src="/static/atif-mohammed-150.jpg"
+              srcSet="/static/atif-mohammed-225.jpg 1.5x,
+                      /static/atif-mohammed-300.jpg 2x,
+                      /static/atif-mohammed-450.jpg 3x"
             />
           </div>
           <div className=" column title__container">
