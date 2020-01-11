@@ -32,7 +32,7 @@ const Home = () => (
               src="/static/atif-mohammed-150.jpg"
               srcSet="/static/atif-mohammed-225.jpg 1.5x,
                       /static/atif-mohammed-300.jpg 2x,
-                      /static/atif-mohammed-450.jpg 3x"
+                        /static/atif-mohammed-450.jpg 3x"
             />
           </div>
           <div className=" column title__container">

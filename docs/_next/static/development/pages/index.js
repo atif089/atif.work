@@ -11707,10 +11707,10 @@ var Home = function Home() {
     __self: this
   }, __jsx("img", {
     className: "profile-pic",
-    src: "/static/atif-mohammed-150.jpg",
-    srcSet: "/static/atif-mohammed.jpg 2x",
     alt: "Ameenuddin Atif Mohammed",
     loading: "lazy",
+    src: "/static/atif-mohammed-150.jpg",
+    srcSet: "/static/atif-mohammed-225.jpg 1.5x, /static/atif-mohammed-300.jpg 2x, /static/atif-mohammed-450.jpg 3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -11720,85 +11720,85 @@ var Home = function Home() {
     className: " column title__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, __jsx("span", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name.toUpperCase())), __jsx("div", {
     className: "column is-one-fifth is-contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].telephone), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].email), __jsx(ProfileIcons, {
     person: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   })))), __jsx("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
   }, "Experience"), __jsx("div", {
     className: "experience-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     },
     __self: this
   }, __jsx(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }), __jsx(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     },
     __self: this
   }),  true && __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(ThinkfulExperience, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }), __jsx(UHGExperience, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   })))), __jsx("div", {
@@ -11808,178 +11808,178 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 63
     },
     __self: this
   }, __jsx("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, __jsx("div", {
     className: "column is-three-fifths",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 65
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 66
     },
     __self: this
   }, "Achievements"), __jsx("div", {
     className: "achievements--list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 67
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 68
     },
     __self: this
   }, "Amazon Patent Award"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 69
     },
     __self: this
   }, "Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application Number - 13/924,077)"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 74
     },
     __self: this
   }, "Front End Development Mentor"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 75
     },
     __self: this
   }, "Mentored over 25 students for Front End Development (HTML, CSS, JS)."), __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
   }, "Freelance Consulting"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: this
   }, "Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or better feedback on 12+ projects in a year."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 83
     },
     __self: this
   }, "Offered development and consulting for 12 years to small and medium business owners from family and friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile development, online presence, and business automation.")))), __jsx("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 91
     },
     __self: this
   },  true && __jsx(Skills, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 91
     },
     __self: this
   })))), __jsx("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 95
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: this
   }, "Education"), __jsx("div", {
     className: "education-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: this
   }, __jsx("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 98
     },
     __self: this
   }, __jsx("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   }, __jsx("p", {
     className: "date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 100
     },
     __self: this
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 101
     },
     __self: this
   }, "2007 Aug"), " - ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 101
     },
     __self: this
   }, "2011 June"))), __jsx("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
   }, __jsx("div", {
     className: "qualification-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 105
     },
     __self: this
   }, "Bachelor of Technology (Information Technology)"), __jsx("div", {
     className: "college",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 106
     },
     __self: this
   }, "VIF College of Engineering and Technology, 2007 \u2013 2011"), __jsx("div", {
     className: "location",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 107
     },
     __self: this
   }, "Hyderabad, India")))))), __jsx("script", {
@@ -11989,7 +11989,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 115
     },
     __self: this
   }));
@@ -11999,7 +11999,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CGitHub%5Catif.work%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************/
@@ -12022,5 +12022,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
