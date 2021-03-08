@@ -2209,7 +2209,8 @@ h3 {
 
 .title {
   font-family: Roboto, Helvetica, "Luicida Sans", sans-serif;
-  font-size: 3em; }
+  font-size: 3em;
+  color: #333333; }
 
 .achievements {
   margin-bottom: 20px; }

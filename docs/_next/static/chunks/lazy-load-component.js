@@ -213,7 +213,7 @@ var Skills = function Skills(props) {
       lineNumber: 8
     },
     __self: this
-  }, "Redux"), " ", __jsx("span", {
+  }, "Vue"), " ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
