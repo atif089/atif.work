@@ -36,27 +36,13 @@ const Home = () => (
             />
           </div>
           <div className=" column title__container">
-            <span className="title">{Person.name.toUpperCase()}</span>
+            <span className="title">{Person.name}</span>
           </div>
           <div className="column is-one-fifth is-contact">
             <p>{Person.telephone}</p>
             <p>{Person.email}</p>
             <ProfileIcons person={Person} />
           </div>
-        </div>
-      </div>
-
-      <div className="section">
-        <div className="main-heading">Experience</div>
-        <div className="experience-holder">
-          <BookingExperience />
-          <AmazonExperience />
-          {process.browser && (
-            <>
-              <ThinkfulExperience />
-              <UHGExperience />
-            </>
-          )}
         </div>
       </div>
 
@@ -67,8 +53,7 @@ const Home = () => (
             <div className="achievements--list">
               <h3>Amazon Patent Award</h3>
               <p>
-                Filed for a patent in the USPTO Office related to Marketing Industry in May 2013. (Patent Application
-                Number - 13/924,077)
+                Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number  <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
               </p>
 
               <h3>Front End Development Mentor</h3>
@@ -89,6 +74,20 @@ const Home = () => (
             </div>
           </div>
           <div className="column">{process.browser && <Skills />}</div>
+        </div>
+      </div>
+
+      <div className="section">
+        <div className="main-heading">Experience</div>
+        <div className="experience-holder">
+          <BookingExperience />
+          <AmazonExperience />
+          {process.browser && (
+            <>
+              <ThinkfulExperience />
+              <UHGExperience />
+            </>
+          )}
         </div>
       </div>
 

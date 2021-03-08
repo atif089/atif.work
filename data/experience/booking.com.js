@@ -12,8 +12,20 @@ const Booking = () => (
 
     <div className="column">
       <h2 className="job-title">
-        FrontEnd Developer <PDFOnly>&amp; Team Lead</PDFOnly>
+        FrontEnd Developer &amp; Team Lead
       </h2>
+
+      <div className="role__container">
+        <h3 className="team-title is-size-6">Partner Incentives</h3>
+        <div className="job-desc">
+          <p style={{ paddingBottom: "10px" }}>Managing a team of 3 people and working together on:</p>
+          <ul className="job-desc__bullets">
+            <li>Leading the team running inventice campaigns for accommodation partners enabling them to generate higher revenue based on their sales performance</li>
+            <li>Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow</li>
+            <li>Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual performance and deliver feedback</li>
+           </ul>
+        </div>
+      </div>
 
       <div className="role__container">
         <h3 className="team-title is-size-6">Customer Service Innovations Team</h3>

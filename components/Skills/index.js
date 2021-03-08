@@ -5,7 +5,7 @@ const Skills = (props) => (
       <p>
         <span>HTML</span> <span>CSS</span> <span>Javascript</span> <span>NodeJS</span>
         <span>MySQL / MariaDB</span> <span>MongoDB</span> <span>Rethink DB</span>
-        <span>React</span> <span>Redux</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
+        <span>React</span> <span>Vue</span> <span>WebPack</span> <span>jQuery</span> <span>Puppeteer</span>
         <span>Google Drive Scripts</span> <span>Postman</span> <span>Git CLI</span>
         <span>AWS</span> <span>Google Cloud Platform</span>
         <span>Nginx</span> <span>Apache</span> <span>PHP</span> <span>WordPress / WooCommerce</span>
