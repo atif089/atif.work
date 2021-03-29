@@ -6,11 +6,12 @@ const fs = require("fs");
 async function generatePdf() {
   const browser = await puppeteer.launch({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    headless: true
+    headless: true,
   });
 
   // Open a new page with the headless browser
   const page = await browser.newPage();
+  await page.setCacheEnabled(false);
 
   // Route the headless browser to the webpage for printing
   await page.goto("http://localhost:3000/?pdf"); // add your url
@@ -27,11 +28,11 @@ async function generatePdf() {
       top: "0.8cm",
       bottom: "0.6cm",
       left: "0.4cm",
-      right: "0.4cm"
-    }
+      right: "0.4cm",
+    },
   });
 
-  await fs.writeFile("./docs/atif-mohammed-cv.pdf", buffer, function(err) {
+  await fs.writeFile("./docs/atif-mohammed-cv.pdf", buffer, function (err) {
     if (err) {
       return console.log(err);
     }
