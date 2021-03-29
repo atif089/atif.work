@@ -11,19 +11,25 @@ const Booking = () => (
     </div>
 
     <div className="column">
-      <h2 className="job-title">
-        FrontEnd Developer &amp; Team Lead
-      </h2>
+      <h2 className="job-title">FrontEnd Developer &amp; Team Lead</h2>
 
       <div className="role__container">
         <h3 className="team-title is-size-6">Partner Incentives</h3>
         <div className="job-desc">
-          <p style={{ paddingBottom: "10px" }}>Managing a team of 3 people and working together on:</p>
+          <p style={{ paddingBottom: "10px" }}>Managing a team of 4 people and working on:</p>
           <ul className="job-desc__bullets">
-            <li>Leading the team running inventice campaigns for accommodation partners enabling them to generate higher revenue based on their sales performance</li>
-            <li>Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow</li>
-            <li>Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual performance and deliver feedback</li>
-           </ul>
+            <li>
+              Leading the team running incentive campaigns for accommodation partners enabling them to generate higher
+              revenue based on their sales performance
+            </li>
+            <li>
+              Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow
+            </li>
+            <li>
+              Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual
+              performance and deliver feedback
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -31,7 +37,7 @@ const Booking = () => (
         <h3 className="team-title is-size-6">Customer Service Innovations Team</h3>
         <div className="job-desc">
           <PDFOnly>
-            <p style={{ paddingBottom: "10px" }}>Managing a team of 5 people and worked together on:</p>
+            <p style={{ paddingBottom: "10px" }}>Managing a team of 3 people and worked together on:</p>
           </PDFOnly>
           <ul className="job-desc__bullets">
             <li>
@@ -43,6 +49,10 @@ const Booking = () => (
               Analyzing common customer behavior and identify patterns in customer service tickets and develop
               innovative solutions to reduce human handling and foster automation.
             </li>
+            <li>
+              Interviewing and assist in hiring frontend developers{" "}
+              <PDFOnly>(with Acceptance/Offer Ratio: 0.8)</PDFOnly>
+            </li>
           </ul>
         </div>
       </div>
@@ -51,7 +61,7 @@ const Booking = () => (
         className="role__container"
         style={{
           pageBreakBefore: "avoid",
-          pageBreakInside: "auto"
+          pageBreakInside: "auto",
         }}
       >
         <h3 className="team-title is-size-6">Onboarding Lead</h3>

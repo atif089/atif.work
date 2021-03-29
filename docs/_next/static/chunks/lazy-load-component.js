@@ -409,30 +409,23 @@ var Booking = function Booking() {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
-  }, __jsx("h3", {
-    className: "team-title is-size-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "Amazon Local Services"), __jsx("div", {
+  }, __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 13
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
     },
     __self: this
-  }, "I provide weekly one on one support, feedback, help and advice to students working through the front-end web development curriculum and starting soon on NodeJS curriculum.")))));
+  }, "Remotely provide weekly one on one support, feedback, help and advice to students working through the front-end web development curriculum. Worked with over 25 students, with a good number of them working as full time Front-end developers across the globe.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Booking);
@@ -536,7 +529,7 @@ var Booking = function Booking() {
       lineNumber: 15
     },
     __self: this
-  }, "Working on development and maintenance of client portals for UHC M&R Insurance Solutions. Work involved integrating UI Comps supplied by onshore resource into the existing website built upon Springs Framework")))));
+  }, "Front-end development and maintenance of client portals for UHC M&R Insurance Solutions.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Booking);

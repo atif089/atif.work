@@ -12,10 +12,7 @@ const Booking = () => (
 
       <div className="role__container">
         <div className="job-desc">
-          <p>
-            Working on development and maintenance of client portals for UHC M&amp;R Insurance Solutions. Work involved
-            integrating UI Comps supplied by onshore resource into the existing website built upon Springs Framework
-          </p>
+          <p>Front-end development and maintenance of client portals for UHC M&amp;R Insurance Solutions.</p>
         </div>
       </div>
     </div>

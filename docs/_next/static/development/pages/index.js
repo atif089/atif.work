@@ -393,21 +393,21 @@ var Booking = function Booking() {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 16
     },
     __self: this
   }, __jsx("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 17
     },
     __self: this
   }, "Partner Incentives"), __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }, __jsx("p", {
@@ -416,59 +416,59 @@ var Booking = function Booking() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
-  }, "Managing a team of 3 people and working together on:"), __jsx("ul", {
+  }, "Managing a team of 4 people and working on:"), __jsx("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
-  }, "Leading the team running inventice campaigns for accommodation partners enabling them to generate higher revenue based on their sales performance"), __jsx("li", {
+  }, "Leading the team running incentive campaigns for accommodation partners enabling them to generate higher revenue based on their sales performance"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, "Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow"), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
   }, "Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual performance and deliver feedback")))), __jsx("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 36
     },
     __self: this
   }, __jsx("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 37
     },
     __self: this
   }, "Customer Service Innovations Team"), __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 38
     },
     __self: this
   }, __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 39
     },
     __self: this
   }, __jsx("p", {
@@ -477,29 +477,41 @@ var Booking = function Booking() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 40
     },
     __self: this
-  }, "Managing a team of 5 people and worked together on:")), __jsx("ul", {
+  }, "Managing a team of 3 people and worked together on:")), __jsx("ul", {
     className: "job-desc__bullets",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Identify and eliminating friction for customers trying to contact Booking.com, and at the same time optimizing the UI so maintain clarity, consistency, and context to both the customer and the support staff."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "Analyzing common customer behavior and identify patterns in customer service tickets and develop innovative solutions to reduce human handling and foster automation.")))), __jsx("div", {
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Identify and eliminating friction for customers trying to contact Booking.com, and at the same time optimizing the UI so maintain clarity, consistency, and context to both the customer and the support staff."), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Analyzing common customer behavior and identify patterns in customer service tickets and develop innovative solutions to reduce human handling and foster automation."), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Interviewing and assist in hiring frontend developers", " ", __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "(with Acceptance/Offer Ratio: 0.8)"))))), __jsx("div", {
     className: "role__container",
     style: {
       pageBreakBefore: "avoid",
@@ -507,156 +519,156 @@ var Booking = function Booking() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 60
     },
     __self: this
   }, __jsx("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 67
     },
     __self: this
   }, "Onboarding Lead"), __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 68
     },
     __self: this
   }, __jsx("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 69
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 70
     },
     __self: this
   }, "Leading and managing the onboarding journey for new hires right from before they join the company until the end of their probation. Setting up training, tracking their overall development and providing developmental feedback."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 75
     },
     __self: this
   }, "Identifying skills, strengths, weaknesses and mapping interests of the developers and match them to place them within different teams in the company."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 79
     },
     __self: this
   }, "Contributing to the development of advanced tools to make the onboarding process smoother. For example, I spent on creating a lot of Google Drive Scripts that helped automate redundant processes like sending emails, grooming backlog, setting up automatic calendar invites for important training, tracking feedback and producing individual reports from spreadsheets."), __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 85
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 86
     },
     __self: this
   }, "Over a span of 4 months, I worked with and successfully integrated 38 people in the company with an average of 14 reports at any time."), __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 90
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 91
     },
     __self: this
   }, "I was also a part of a pilot program called \"incubator teams\" where the new Engineers along with a new Product Owner worked on researching a topic that could produce high value to the company in the future. One such topic that I worked for, the impact of website loading and interaction speed went on successful and eventually converted into a track called \"Web Velocity\" which is currently supported by 25+ people.")))))), __jsx("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 104
     },
     __self: this
   }, __jsx("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 105
     },
     __self: this
   }, "Landing Pages Team"), __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 106
     },
     __self: this
   }, __jsx("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 107
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 108
     },
     __self: this
   }, "Worked on conducting user research, applying the learnings from user research in form of A/B Tests to optimize Booking.com landing pages (mobile, tablet and web) serving traffic from various sources like meta partners, SEO, PPC, etc."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 113
     },
     __self: this
   }, "Built tools to automate processes like linting checks, boilerplate to create new A/B tests, etc. using Bash and Node.JS."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 117
     },
     __self: this
   }, "Also, supported and facilitated onboarding new developers on the team.")))), __jsx("div", {
     className: "role__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 122
     },
     __self: this
   }, __jsx("h3", {
     className: "team-title is-size-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 123
     },
     __self: this
   }, "Other Teams"), __jsx("div", {
     className: "job-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 124
     },
     __self: this
   }, __jsx("ul", {
     className: "job-desc__bullets",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 125
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 126
     },
     __self: this
   }, "Worked on rewriting the core routing component of the system and a new search box along with routine Frontend / Javascript tasks. I also worked on implementing Google Analytics events and dimension for various user interactions."), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 131
     },
     __self: this
   }, "Worked for over a year on parts of Mobile and Tablet website. Other daily activities include generating experiment ideas for A/B Testing, prioritizing and implementing them. I also worked on optimizing the mobile website for better performance.\u2003"))))));
@@ -11654,13 +11666,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./_base.scss */ "./pages/_base.scss");
 /* harmony import */ var _base_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_base_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data/schema/001_person-main */ "./data/schema/001_person-main.js");
-/* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_PDFOnly__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PDFOnly */ "./components/PDFOnly/index.js");
-/* harmony import */ var _data_experience_booking_com__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/experience/booking.com */ "./data/experience/booking.com.js");
-/* harmony import */ var _data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../data/experience/amazon.com */ "./data/experience/amazon.com.js");
+/* harmony import */ var _print_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./_print.scss */ "./pages/_print.scss");
+/* harmony import */ var _print_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_print_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/schema/001_person-main */ "./data/schema/001_person-main.js");
+/* harmony import */ var _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_PDFOnly__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PDFOnly */ "./components/PDFOnly/index.js");
+/* harmony import */ var _data_experience_booking_com__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../data/experience/booking.com */ "./data/experience/booking.com.js");
+/* harmony import */ var _data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/experience/amazon.com */ "./data/experience/amazon.com.js");
 var _jsxFileName = "D:\\GitHub\\atif.work\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -11716,42 +11731,42 @@ var Home = function Home() {
     id: "app",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, __jsx(_components_head__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "".concat(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name, " | C.V | Resume | Personal Website | atif.work"),
+    title: "".concat(_data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schema"].name, " | C.V | Resume | Personal Website | atif.work"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, __jsx("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, __jsx("div", {
     className: "columns is-vertical-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, __jsx("div", {
     className: "column is-one-fifth profile-pic__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, __jsx("img", {
@@ -11762,47 +11777,47 @@ var Home = function Home() {
     srcSet: "/static/atif-mohammed-225.webp 1.5x, /static/atif-mohammed-300.webp 2x, /static/atif-mohammed-450.webp 3x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   })), __jsx("div", {
     className: " column title__container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }, __jsx("span", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
-  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].name)), __jsx("div", {
+  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schema"].name)), __jsx("div", {
     className: "column is-one-fifth is-contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].telephone), __jsx("p", {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"].email), __jsx(ProfileIcons, {
-    person: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schema"],
+  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schema"].telephone), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
+    },
+    __self: this
+  }, _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schema"].email), __jsx(ProfileIcons, {
+    person: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schema"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
     },
     __self: this
   })))), __jsx("div", {
@@ -11812,69 +11827,69 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, __jsx("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }, __jsx("div", {
     className: "column is-three-fifths",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 52
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }, "Achievements"), __jsx("div", {
     className: "achievements--list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 54
     },
     __self: this
   }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "Amazon Patent Award"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 55
     },
     __self: this
-  }, "Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number  ", __jsx("a", {
-    href: "https://patents.google.com/patent/US10007937B1/en",
+  }, "Patent"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, "US10007937B1"), ")"), __jsx("h3", {
+  }, "Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number", " ", __jsx("a", {
+    href: "https://patents.google.com/patent/US10007937B1/en",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 58
     },
     __self: this
-  }, "Front End Development Mentor"), __jsx("p", {
+  }, "US10007937B1"), ")"), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Mentored over 25 students for Front End Development (HTML, CSS, JS)."), __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "Front End Development Mentor"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Mentored over 25 students for Front End Development (HTML, CSS, JS)."), __jsx(_components_PDFOnly__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -11886,166 +11901,169 @@ var Home = function Home() {
       lineNumber: 63
     },
     __self: this
-  }, "Freelance Consulting"), __jsx("p", {
+  }, "Freelance / Consulting"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }, "Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or better feedback on 12+ projects in a year."), __jsx("p", {
+  }, "Achieved a Top-Rated Status on Upwork - This is achieved by freelancers who secure a 95% or better overall positive feedback on 12+ projects in a year."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }, "Offered development and consulting for 12 years to small and medium business owners from family and friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile development, online presence, and business automation.")))), __jsx("div", {
+  }, "Offered consulting and development services over 12 years to small/medium business owners around website/mobile development, online presence, and business automation.")))), __jsx("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 75
     },
     __self: this
   },  true && __jsx(Skills, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 75
     },
     __self: this
   })))), __jsx("div", {
     className: "section",
+    style: {
+      pageBreakBefore: "auto"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 79
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 80
     },
     __self: this
   }, "Experience"), __jsx("div", {
     className: "experience-holder",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, __jsx(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
-  }, __jsx(_data_experience_booking_com__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }), __jsx(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }), __jsx(_data_experience_amazon_com__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
   }),  true && __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(ThinkfulExperience, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }), __jsx(UHGExperience, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     },
     __self: this
   })))), __jsx("div", {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     },
     __self: this
   }, __jsx("div", {
     className: "main-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 94
     },
     __self: this
   }, "Education"), __jsx("div", {
     className: "education-holder",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 95
     },
     __self: this
   }, __jsx("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 96
     },
     __self: this
   }, __jsx("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 97
     },
     __self: this
   }, __jsx("p", {
     className: "date",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 98
     },
     __self: this
   }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 99
     },
     __self: this
   }, "2007 Aug"), " - ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 99
     },
     __self: this
   }, "2011 June"))), __jsx("div", {
     className: "column",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 102
     },
     __self: this
   }, __jsx("div", {
     className: "qualification-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 103
     },
     __self: this
   }, "Bachelor of Technology (Information Technology)"), __jsx("div", {
     className: "college",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 104
     },
     __self: this
   }, "VIF College of Engineering and Technology, 2007 \u2013 2011"), __jsx("div", {
     className: "location",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 105
     },
     __self: this
   }, "Hyderabad, India")))))), __jsx("script", {
     type: "application/ld+json",
     dangerouslySetInnerHTML: {
-      __html: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_4__["schemaAsString"]
+      __html: _data_schema_001_person_main__WEBPACK_IMPORTED_MODULE_5__["schemaAsString"]
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 113
     },
     __self: this
   }));

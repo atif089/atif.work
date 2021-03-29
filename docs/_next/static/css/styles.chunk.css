@@ -2314,5 +2314,11 @@ h3 {
   .profile-pic {
     max-width: 150px; } }
 
+@media print {
+  body {
+    font-size: 11.5px; }
+  h2, h3 {
+    font-weight: bold; } }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
