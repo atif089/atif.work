@@ -9,13 +9,12 @@ const Booking = () => (
     </div>
     <div className="column">
       <h2 className="job-title">FrontEnd Development Mentor</h2>
-
       <div className="role__container">
-        <h3 className="team-title is-size-6">Amazon Local Services</h3>
         <div className="job-desc">
           <p>
-            I provide weekly one on one support, feedback, help and advice to students working through the front-end web
-            development curriculum and starting soon on NodeJS curriculum.
+            Remotely provide weekly one on one support, feedback, help and advice to students working through the
+            front-end web development curriculum. Worked with over 25 students, with a good number of them working as
+            full time Front-end developers across the globe.
           </p>
         </div>
       </div>

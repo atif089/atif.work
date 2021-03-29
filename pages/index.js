@@ -3,6 +3,7 @@ import Head from "../components/head";
 import dynamic from "next/dynamic";
 
 import "./_base.scss";
+import "./_print.scss";
 
 import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
 
@@ -51,24 +52,22 @@ const Home = () => (
           <div className="column is-three-fifths">
             <div className="main-heading">Achievements</div>
             <div className="achievements--list">
-              <h3>Amazon Patent Award</h3>
+              <h3>Patent</h3>
               <p>
-                Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number  <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
+                Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number{" "}
+                <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
               </p>
-
               <h3>Front End Development Mentor</h3>
               <p>Mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
-
               <PDFOnly>
-                <h3>Freelance Consulting</h3>
+                <h3>Freelance / Consulting</h3>
                 <p>
-                  Achieved a Top-Rated Status on Upwork platform - This is achieved by freelancers who secure a 95% or
-                  better feedback on 12+ projects in a year.
+                  Achieved a Top-Rated Status on Upwork - This is achieved by freelancers who secure a 95% or better
+                  overall positive feedback on 12+ projects in a year.
                 </p>
                 <p>
-                  Offered development and consulting for 12 years to small and medium business owners from family and
-                  friends to other seeking help on freelance platforms like Elance, Upwork, etc. with website/mobile
-                  development, online presence, and business automation.
+                  Offered consulting and development services over 12 years to small/medium business owners around
+                  website/mobile development, online presence, and business automation.
                 </p>
               </PDFOnly>
             </div>
@@ -77,7 +76,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="section">
+      <div className="section" style={{ pageBreakBefore: "auto" }}>
         <div className="main-heading">Experience</div>
         <div className="experience-holder">
           <BookingExperience />
