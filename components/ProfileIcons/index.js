@@ -1,14 +1,15 @@
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faAdobe } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const ProfileIcons = (props) => {
   const Person = props.person;
 
   const iconStyles = {
     width: "24px",
-    height: "24px"
+    height: "24px",
   };
 
   return (
@@ -36,7 +37,7 @@ const ProfileIcons = (props) => {
             return (
               <Link key={i} href={url}>
                 <a target="_blank">
-                  <FontAwesomeIcon icon={faAdobe} style={iconStyles} />
+                  <FontAwesomeIcon icon={faFilePdf} style={iconStyles} />
                 </a>
               </Link>
             );
