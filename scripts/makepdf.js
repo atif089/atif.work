@@ -14,7 +14,7 @@ async function generatePdf() {
   await page.setCacheEnabled(false);
 
   // Route the headless browser to the webpage for printing
-  await page.goto("http://localhost:3000/?pdf"); // add your url
+  await page.goto("http://localhost:3000/?pdf=1"); // add your url
 
   // Wait for lazy loaded the components to mount
   await page.waitFor(5000);
@@ -25,10 +25,10 @@ async function generatePdf() {
     format: "Letter",
     PreferCSSPageSize: false,
     margin: {
-      top: "0.8cm",
-      bottom: "0.6cm",
-      left: "0.4cm",
-      right: "0.4cm",
+      top: "0.2cm",
+      bottom: "0.2cm",
+      left: "0.2cm",
+      right: "0.2cm",
     },
   });
 

@@ -57,17 +57,14 @@ const Home = () => (
                 Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number{" "}
                 <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
               </p>
-              <h3>Front End Development Mentor</h3>
-              <p>Mentored over 25 students for Front End Development (HTML, CSS, JS).</p>
+              <h3>Front End Development Mentor (Thinkful)</h3>
+              <p>Mentored over 25 students remotely for Front End Development (HTML, CSS, JS).</p>
               <PDFOnly>
-                <h3>Freelance / Consulting</h3>
+                <h3>Consulting / Freelance Experience</h3>
                 <p>
                   Achieved a Top-Rated Status on Upwork - This is achieved by freelancers who secure a 95% or better
-                  overall positive feedback on 12+ projects in a year.
-                </p>
-                <p>
-                  Offered consulting and development services over 12 years to small/medium business owners around
-                  website/mobile development, online presence, and business automation.
+                  overall positive feedback on 12+ projects in a year. Offered consulting and development services to
+                  small/medium businesses around website/mobile development, online presence, and business automation.
                 </p>
               </PDFOnly>
             </div>

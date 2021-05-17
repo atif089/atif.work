@@ -16,18 +16,30 @@ const Booking = () => (
       <div className="role__container">
         <h3 className="team-title is-size-6">Partner Incentives</h3>
         <div className="job-desc">
-          <p style={{ paddingBottom: "10px" }}>Managing a team of 4 people and working on:</p>
+          <p style={{ paddingBottom: "10px" }}>Managing a cross functional team of 4 people and working on:</p>
           <ul className="job-desc__bullets">
+            <li>Leading the team running incentive campaigns for accommodation partners</li>
             <li>
-              Leading the team running incentive campaigns for accommodation partners enabling them to generate higher
-              revenue based on their sales performance
+              About 50% time spent as an individual contributor delivering on the front end development needs (VueJs)
+              for the team.
             </li>
             <li>
-              Mentor team members on personal growth and identify opportunities outsite the team to leverage and grow
+              Create and maintain an effective product roadmap, including specific projects and tasks, that aligns with
+              the strategic direction of the organization and the company. Plan semi-annual team objectives and ensure
+              KPIs are tracked, reviewed. Carry out team meetings, agile alignment, retrospectives.
             </li>
             <li>
-              Plan objectives, set goals, run team meetings, agile alignment, retrospectives, track individual
-              performance and deliver feedback
+              Ensure all team members are given a clear understanding of their individual objectives and performance and
+              provide regular feedback.
+            </li>
+            <li>Mentor team members and identify opportunities for them outside the team to leverage and grow.</li>
+            <li>
+              Onboarding new team members on the team from various roles and ensuring they are up to their productivity
+              in an expected time.
+            </li>
+            <li>
+              Create a comfortable and healthy team environment. Keep a check on mental health and provide adequate
+              support.
             </li>
           </ul>
         </div>
@@ -37,7 +49,7 @@ const Booking = () => (
         <h3 className="team-title is-size-6">Customer Service Innovations Team</h3>
         <div className="job-desc">
           <PDFOnly>
-            <p style={{ paddingBottom: "10px" }}>Managing a team of 3 people and worked together on:</p>
+            <p style={{ paddingBottom: "10px" }}>Managing a development team of 3 people and worked together on:</p>
           </PDFOnly>
           <ul className="job-desc__bullets">
             <li>
