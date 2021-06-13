@@ -10,6 +10,8 @@ jobs:
   build_and_release:
     runs-on: ubuntu-20.04
     steps:
-    - name: Build the site
+    - name: Dev Server
       run: |
-        yarn install
+        npm install
+        npm build
+        rm -rf ./docs
