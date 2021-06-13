@@ -2,9 +2,6 @@ import React from "react";
 import Head from "../components/head";
 import dynamic from "next/dynamic";
 
-import "./_base.scss";
-import "./_print.scss";
-
 import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
 
 import PDFOnly from "../components/PDFOnly";
