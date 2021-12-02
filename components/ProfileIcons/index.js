@@ -19,27 +19,21 @@ const ProfileIcons = (props) => {
           const url = realURL.replace("https:", "");
           if (url.indexOf("linkedin") > -1) {
             return (
-              <Link key={i} href={url}>
-                <a target="_blank">
-                  <FontAwesomeIcon icon={faLinkedin} style={iconStyles} />
-                </a>
-              </Link>
+              <a target="_blank" key={i} href={url}>
+                <FontAwesomeIcon icon={faLinkedin} style={iconStyles} />
+              </a>
             );
           } else if (url.indexOf("github") > -1) {
             return (
-              <Link key={i} href={url}>
-                <a target="_blank">
-                  <FontAwesomeIcon icon={faGithub} style={iconStyles} />
-                </a>
-              </Link>
+              <a target="_blank" key={i} href={url}>
+                <FontAwesomeIcon icon={faGithub} style={iconStyles} />
+              </a>
             );
           } else if (url.indexOf("atif.work") > -1) {
             return (
-              <Link key={i} href={url}>
-                <a target="_blank">
-                  <FontAwesomeIcon icon={faFilePdf} style={iconStyles} />
-                </a>
-              </Link>
+              <a target="_blank" key={i} href={url}>
+                <FontAwesomeIcon icon={faFilePdf} style={iconStyles} />
+              </a>
             );
           }
           return null;

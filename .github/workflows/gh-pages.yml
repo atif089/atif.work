@@ -15,3 +15,7 @@ jobs:
         npm install
         npm build
         rm -rf ./docs
+        yarn next export -o "./docs/"
+        yarn dev &
+        sleep 10 &&
+        node .\scripts\makepdf.js

@@ -11,6 +11,49 @@ const Booking = () => (
     </div>
 
     <div className="column">
+      <PDFOnly>
+        <h2 className="job-title">Engineering Manager &amp; Full Stack Developer</h2>
+
+        <div className="role__container">
+          <h3 className="team-title is-size-6">Team Partner Incentives &amp; Team Upsell</h3>
+          <div className="job-desc">
+            <p style={{ paddingBottom: "10px" }}>
+              Leading engineering for multiple teams managing Frontend and Backend developers
+            </p>
+            <ul className="job-desc__bullets">
+              <li>
+                Drafted and executed replatforming strategy to migrate legacy code to microservices and microfrontends
+                reducing cost of deployments from 4 hours of manual effort to 15 minutes via pipelines.
+              </li>
+              <li>
+                Extremely hands on and worked on writing frontend code, autmations, developing CI/CD as needed during
+                the project
+              </li>
+              <li>
+                Fostered engineering team to adopt new practices for better code quality like having 85% unit test
+                coverage, code ownership, E2E test coverage for all critical flows and setting up business and
+                continuity tests according to SRE guidelines like failover, capacity and security
+              </li>
+              <li>
+                Introduced SLOs to ensure that teams are on track to deliver. Reconstructed other monitoring and alerts
+                at various orchestration points to position the team better at handling incident management
+              </li>
+              <li>
+                Set up documentation strategy for increasing the bus factor that included preparing architecture
+                diagrams like C4 and sequence diagrams for existing flows
+              </li>
+              <li>Was Responsible performance evaluation and growth of my team members</li>
+              <li>Created and executed performance development plans for all reports</li>
+              <li>
+                Involved in Tech Product Strategy including aligning with Product and UX to translate product goals into
+                clear achievable milestones. Liase with FE and BE developers to identify tech debt and bottlenecks and
+                prepare a technical roadmap to overcome those challenges.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </PDFOnly>
+
       <h2 className="job-title">FrontEnd Developer &amp; Team Lead</h2>
 
       <div className="role__container">
@@ -20,17 +63,13 @@ const Booking = () => (
           <ul className="job-desc__bullets">
             <li>Leading the team running incentive campaigns for accommodation partners</li>
             <li>
-              About 50% time spent as an individual contributor delivering on the front end development needs (VueJs)
-              for the team.
+              Create and maintain an effective frontend product roadmap, including specific projects and tasks, that
+              aligns with the strategic direction of the organization and the company. Plan semi-annual team objectives
+              and ensure KPIs are tracked, reviewed.
             </li>
             <li>
-              Create and maintain an effective product roadmap, including specific projects and tasks, that aligns with
-              the strategic direction of the organization and the company. Plan semi-annual team objectives and ensure
-              KPIs are tracked, reviewed. Carry out team meetings, agile alignment, retrospectives.
-            </li>
-            <li>
-              Ensure all team members are given a clear understanding of their individual objectives and performance and
-              provide regular feedback.
+              Carry out team meetings, agile alignment, retrospectives. Ensure all team members are given a clear
+              understanding of their individual objectives and performance and provide regular feedback.
             </li>
             <li>Mentor team members and identify opportunities for them outside the team to leverage and grow.</li>
             <li>
@@ -48,9 +87,6 @@ const Booking = () => (
       <div className="role__container">
         <h3 className="team-title is-size-6">Customer Service Innovations Team</h3>
         <div className="job-desc">
-          <PDFOnly>
-            <p style={{ paddingBottom: "10px" }}>Managing a development team of 3 people and worked together on:</p>
-          </PDFOnly>
           <ul className="job-desc__bullets">
             <li>
               Identify and eliminating friction for customers trying to contact Booking.com, and at the same time
@@ -62,8 +98,7 @@ const Booking = () => (
               innovative solutions to reduce human handling and foster automation.
             </li>
             <li>
-              Interviewing and assist in hiring frontend developers{" "}
-              <PDFOnly>(with Acceptance/Offer Ratio: 0.8)</PDFOnly>
+              Ran Technical Interviews for frontend developers <PDFOnly>(with Acceptance/Offer Ratio: 0.8)</PDFOnly>
             </li>
           </ul>
         </div>
@@ -113,7 +148,7 @@ const Booking = () => (
         </div>
       </div>
 
-      <div className="role__container">
+      <div className="role__container" style={{ pageBreakBefore: "always" }}>
         <h3 className="team-title is-size-6">Landing Pages Team</h3>
         <div className="job-desc">
           <ul className="job-desc__bullets">

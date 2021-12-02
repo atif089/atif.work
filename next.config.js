@@ -26,13 +26,4 @@ module.exports = withBundleAnalyzer({
     await copyFile(join(dir, ".nojekyll"), join(outDir, ".nojekyll"));
     return defaultPathMap;
   },
-
-  webpack: (config) => {
-    // Fixes npm packages that depend on `fs` module
-    config.node = {
-      fs: "empty",
-    };
-
-    return config;
-  },
 });

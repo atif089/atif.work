@@ -54,50 +54,57 @@ const Home = () => (
                 Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number{" "}
                 <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
               </p>
-              <h3>Front End Development Mentor (Thinkful)</h3>
-              <p>Mentored over 25 students remotely for Front End Development (HTML, CSS, JS).</p>
+              <h3>Hackathons</h3>
+              <p>
+                Participated in various hackathons as a hobby and recently won AWS Graviton Hackathon -{" "}
+                <a target="_blank" href="https://devpost.com/atif089">
+                  devpost.com/atif089
+                </a>
+              </p>
               <PDFOnly>
                 <h3>Consulting / Freelance Experience</h3>
                 <p>
-                  Achieved a Top-Rated Status on Upwork - This is achieved by freelancers who secure a 95% or better
-                  overall positive feedback on 12+ projects in a year. Offered consulting and development services to
-                  small/medium businesses around website/mobile development, online presence, and business automation.
+                  Achieved a Top-Rated Status on Upwork - freelancers who secure a 95% or better overall positive
+                  feedback on 12+ projects in a year. Offered consulting and development services to small/medium
+                  businesses around web development, online presence, and business automation.
                 </p>
               </PDFOnly>
+              <h3>Front End Development Mentor (Thinkful)</h3>
+              <p>Mentored over 25 students remotely for Front End Development (HTML, CSS, JS).</p>
             </div>
           </div>
           <div className="column">{process.browser && <Skills />}</div>
         </div>
       </div>
+    </div>
 
-      <div className="section" style={{ pageBreakBefore: "auto" }}>
-        <div className="main-heading">Experience</div>
-        <div className="experience-holder">
-          <BookingExperience />
-          <AmazonExperience />
-          {process.browser && (
-            <>
-              <ThinkfulExperience />
-              <UHGExperience />
-            </>
-          )}
-        </div>
+    <div className="section" style={{ pageBreakBefore: "auto" }}>
+      <div className="main-heading">Experience</div>
+      <div className="experience-holder">
+        <BookingExperience />
+        <AmazonExperience />
+        {process.browser && (
+          <>
+            {/* <ThinkfulExperience /> */}
+            <UHGExperience />
+          </>
+        )}
       </div>
+    </div>
 
-      <div className="section">
-        <div className="main-heading">Education</div>
-        <div className="education-holder">
-          <div className="columns">
-            <div className="column is-one-third">
-              <p className="date">
-                <span>2007 Aug</span> - <span>2011 June</span>
-              </p>
-            </div>
-            <div className="column">
-              <div className="qualification-title">Bachelor of Technology (Information Technology)</div>
-              <div className="college">VIF College of Engineering and Technology, 2007 – 2011</div>
-              <div className="location">Hyderabad, India</div>
-            </div>
+    <div className="section" style={{ pageBreakInside: "avoid" }}>
+      <div className="main-heading">Education</div>
+      <div className="education-holder">
+        <div className="columns">
+          <div className="column is-one-third">
+            <p className="date">
+              <span>2007 Aug</span> - <span>2011 June</span>
+            </p>
+          </div>
+          <div className="column">
+            <div className="qualification-title">Bachelor of Technology (Information Technology)</div>
+            <div className="college">VIF College of Engineering and Technology, 2007 – 2011</div>
+            <div className="location">Hyderabad, India</div>
           </div>
         </div>
       </div>
