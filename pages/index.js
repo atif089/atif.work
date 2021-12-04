@@ -7,11 +7,6 @@ export async function getStaticProps(context) {
   };
 }
 
-// Data
-import { schema as Person, schemaAsString } from "@/data/schema/001_person-main";
-import BookingExperience from "@/data/experience/booking.com";
-import AmazonExperience from "@/data/experience/amazon.com";
-
 // App Components
 import Head from "@/components/head";
 import Header from "@/components/Header";
@@ -19,9 +14,12 @@ import Achievements from "@/components/Achievements";
 import ContactBlock from "@/components/ContactBlock";
 import EducationBlock from "@/components/EducationBlock";
 
+// Data
+import { schema as Person, schemaAsString } from "@/data/schema/001_person-main";
+import BookingExperience from "@/data/experience/booking.com";
+import AmazonExperience from "@/data/experience/amazon.com";
+
 // Lazy-Loaded App Components
-const Skills = dynamic(import(/* webpackChunkName: "skills" */ "@/components/Skills"));
-const ThinkfulExperience = dynamic(import(/* webpackChunkName: "exp-thinkful" */ "@/data/experience/thinkful"));
 const UHGExperience = dynamic(import(/* webpackChunkName: "exp-uhg" */ "@/data/experience/uhg"));
 
 const Home = () => (
@@ -41,7 +39,6 @@ const Home = () => (
         <AmazonExperience />
         {process.browser && (
           <>
-            {/* <ThinkfulExperience /> */}
             <UHGExperience />
           </>
         )}

@@ -11,50 +11,46 @@ const Booking = () => (
     </div>
 
     <div className="column">
-      <PDFOnly>
-        <h2 className="job-title">Engineering Manager &amp; Full Stack Developer</h2>
+      <h2 className="job-title">Engineering Manager</h2>
 
-        <div className="role__container">
-          <h3 className="team-title is-size-6">Team Partner Incentives &amp; Team Upsell</h3>
-          <div className="job-desc">
-            <p style={{ paddingBottom: "10px" }}>
-              Leading engineering for multiple teams managing Frontend and Backend developers
-            </p>
-            <ul className="job-desc__bullets">
-              <li>
-                Drafted and executed replatforming strategy to migrate legacy code to microservices and microfrontends
-                reducing cost of deployments from 4 hours of manual effort to 15 minutes via pipelines.
-              </li>
-              <li>
-                Extremely hands on and worked on writing frontend code, autmations, developing CI/CD as needed during
-                the project
-              </li>
-              <li>
-                Fostered engineering team to adopt new practices for better code quality like having 85% unit test
-                coverage, code ownership, E2E test coverage for all critical flows and setting up business and
-                continuity tests according to SRE guidelines like failover, capacity and security
-              </li>
-              <li>
-                Introduced SLOs to ensure that teams are on track to deliver. Reconstructed other monitoring and alerts
-                at various orchestration points to position the team better at handling incident management
-              </li>
-              <li>
-                Set up documentation strategy for increasing the bus factor that included preparing architecture
-                diagrams like C4 and sequence diagrams for existing flows
-              </li>
-              <li>Was Responsible performance evaluation and growth of my team members</li>
-              <li>Created and executed performance development plans for all reports</li>
-              <li>
-                Involved in Tech Product Strategy including aligning with Product and UX to translate product goals into
-                clear achievable milestones. Liase with FE and BE developers to identify tech debt and bottlenecks and
-                prepare a technical roadmap to overcome those challenges.
-              </li>
-            </ul>
-          </div>
+      <div className="role__container">
+        <h3 className="team-title is-size-6">Team Partner Incentives &amp; Team Upsell</h3>
+        <div className="job-desc">
+          <p style={{ paddingBottom: "10px" }}>
+            Leading engineering for multiple teams managing Frontend and Backend developers
+          </p>
+          <ul className="job-desc__bullets">
+            <li>
+              Drafted and executed replatforming strategy to migrate legacy code to microservices and microfrontends
+              reducing cost of deployments from 4 hours of manual effort to 15 minutes via pipelines.
+            </li>
+            <li>
+              Extremely hands on and worked on writing frontend code, autmations, developing CI/CD as needed during the
+              project
+            </li>
+            <li>
+              Fostered engineering team to adopt new practices for better code quality like having 85% unit test
+              coverage, code ownership, E2E test coverage for all critical flows and setting up business and continuity
+              tests according to SRE guidelines like failover, capacity and security
+            </li>
+            <li>
+              Introduced SLOs to ensure that teams are on track to deliver. Reconstructed other monitoring and alerts at
+              various orchestration points to position the team better at handling incident management
+            </li>
+            <li>
+              Set up documentation strategy for increasing the bus factor that included preparing architecture diagrams
+              like C4 and sequence diagrams for existing flows
+            </li>
+            <li>Was Responsible performance evaluation and growth of my team members</li>
+            <li>Created and executed performance development plans for all reports</li>
+            <li>
+              Involved in Tech Product Strategy including aligning with Product and UX to translate product goals into
+              clear achievable milestones. Liase with FE and BE developers to identify tech debt and bottlenecks and
+              prepare a technical roadmap to overcome those challenges.
+            </li>
+          </ul>
         </div>
-      </PDFOnly>
-
-      <h2 className="job-title">FrontEnd Developer &amp; Team Lead</h2>
+      </div>
 
       <div className="role__container">
         <h3 className="team-title is-size-6">Partner Incentives</h3>
@@ -167,7 +163,7 @@ const Booking = () => (
       </div>
 
       <div className="role__container">
-        <h3 className="team-title is-size-6">Other Teams</h3>
+        <h3 className="team-title is-size-6">Other Previous Teams</h3>
         <div className="job-desc">
           <ul className="job-desc__bullets">
             <li>
