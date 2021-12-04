@@ -68,13 +68,27 @@ h4 {
   font-family: var(--heading-font);
 }
 
-p {
-  margin-bottom: 20px;
+p,
+li {
+  margin-bottom: 6px;
   line-height: 1.5;
 }
 
 .label {
   margin-top: 10px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: var(--color-dark-grey);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }
 
 /* Masthead  */
@@ -94,21 +108,11 @@ p {
 .contact-list-items ul {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
 }
 
 .contact-list-items ul li {
   margin-right: 15px;
-  list-style-position: inside;
   margin-bottom: 5px;
-}
-
-.contact-list-items ul li::before {
-  content: "\2022";
-  color: var(--color-dark-grey);
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
 }
 
 .contact-list-items ul li.full-width {

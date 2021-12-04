@@ -17,6 +17,7 @@ import Head from "@/components/head";
 import Header from "@/components/Header";
 import Achievements from "@/components/Achievements";
 import ContactBlock from "@/components/ContactBlock";
+import EducationBlock from "@/components/EducationBlock";
 
 // Lazy-Loaded App Components
 const Skills = dynamic(import(/* webpackChunkName: "skills" */ "@/components/Skills"));
@@ -31,9 +32,11 @@ const Home = () => (
     <ContactBlock />
     <Achievements />
 
-    <div className="section" style={{ pageBreakBefore: "auto" }}>
-      <div className="main-heading">Experience</div>
-      <div className="experience-holder">
+    <div className="section section-grid experience-section" style={{ pageBreakBefore: "auto" }}>
+      <div className="left">
+        <h2>Experience</h2>
+      </div>
+      <div className="right">
         <BookingExperience />
         <AmazonExperience />
         {process.browser && (
@@ -45,23 +48,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div className="section" style={{ pageBreakInside: "avoid" }}>
-      <div className="main-heading">Education</div>
-      <div className="education-holder">
-        <div className="columns">
-          <div className="column is-one-third">
-            <p className="date">
-              <span>2007 Aug</span> - <span>2011 June</span>
-            </p>
-          </div>
-          <div className="column">
-            <div className="qualification-title">Bachelor of Technology (Information Technology)</div>
-            <div className="college">VIF College of Engineering and Technology, 2007 – 2011</div>
-            <div className="location">Hyderabad, India</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <EducationBlock />
 
     {/* Microformats / JsonLD */}
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaAsString }} />
