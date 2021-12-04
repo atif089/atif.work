@@ -1,82 +1,35 @@
-import React from "react";
-import Head from "../components/head";
 import dynamic from "next/dynamic";
 
-import { schema as Person, schemaAsString } from "../data/schema/001_person-main";
+// Required for Static Generation
+export async function getStaticProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  };
+}
 
-import PDFOnly from "../components/PDFOnly";
+// Data
+import { schema as Person, schemaAsString } from "@/data/schema/001_person-main";
+import BookingExperience from "@/data/experience/booking.com";
+import AmazonExperience from "@/data/experience/amazon.com";
 
-import BookingExperience from "../data/experience/booking.com";
-import AmazonExperience from "../data/experience/amazon.com";
+// App Components
+import Head from "@/components/head";
+import Header from "@/components/Header";
+import Achievements from "@/components/Achievements";
+import ContactBlock from "@/components/ContactBlock";
 
-// Lazy load these components
-const ProfileIcons = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/ProfileIcons"));
-const ThinkfulExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/thinkful"));
-const UHGExperience = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../data/experience/uhg"));
-const Skills = dynamic(import(/* webpackChunkName: "lazy-load-component" */ "../components/Skills"));
+// Lazy-Loaded App Components
+const Skills = dynamic(import(/* webpackChunkName: "skills" */ "@/components/Skills"));
+const ThinkfulExperience = dynamic(import(/* webpackChunkName: "exp-thinkful" */ "@/data/experience/thinkful"));
+const UHGExperience = dynamic(import(/* webpackChunkName: "exp-uhg" */ "@/data/experience/uhg"));
 
 const Home = () => (
   <div id="app">
     <Head title={`${Person.name} | C.V | Resume | Personal Website | atif.work`} />
 
-    <div className="container">
-      <div className="section">
-        <div className="columns is-vertical-center">
-          <div className="column is-one-fifth profile-pic__container">
-            <img
-              className="profile-pic"
-              alt="Ameenuddin Atif Mohammed"
-              loading="lazy"
-              src="/static/atif-mohammed-150.webp"
-              srcSet="/static/atif-mohammed-225.webp 1.5x,
-                      /static/atif-mohammed-300.webp 2x,
-                        /static/atif-mohammed-450.webp 3x"
-            />
-          </div>
-          <div className=" column title__container">
-            <span className="title">{Person.name}</span>
-          </div>
-          <div className="column is-one-fifth is-contact">
-            <p>{Person.telephone}</p>
-            <p>{Person.email}</p>
-            <ProfileIcons person={Person} />
-          </div>
-        </div>
-      </div>
-
-      <div className="section achievements" style={{ pageBreakInside: "avoid" }}>
-        <div className="columns">
-          <div className="column is-three-fifths">
-            <div className="main-heading">Achievements</div>
-            <div className="achievements--list">
-              <h3>Patent</h3>
-              <p>
-                Awarded Patent for Marketplace Seller Referrals (expiry 2035, Patent Number{" "}
-                <a href="https://patents.google.com/patent/US10007937B1/en">US10007937B1</a>)
-              </p>
-              <h3>Hackathons</h3>
-              <p>
-                Participated in various hackathons as a hobby and recently won AWS Graviton Hackathon -{" "}
-                <a target="_blank" href="https://devpost.com/atif089">
-                  devpost.com/atif089
-                </a>
-              </p>
-              <PDFOnly>
-                <h3>Consulting / Freelance Experience</h3>
-                <p>
-                  Achieved a Top-Rated Status on Upwork - freelancers who secure a 95% or better overall positive
-                  feedback on 12+ projects in a year. Offered consulting and development services to small/medium
-                  businesses around web development, online presence, and business automation.
-                </p>
-              </PDFOnly>
-              <h3>Front End Development Mentor (Thinkful)</h3>
-              <p>Mentored over 25 students remotely for Front End Development (HTML, CSS, JS).</p>
-            </div>
-          </div>
-          <div className="column">{process.browser && <Skills />}</div>
-        </div>
-      </div>
-    </div>
+    <Header />
+    <ContactBlock />
+    <Achievements />
 
     <div className="section" style={{ pageBreakBefore: "auto" }}>
       <div className="main-heading">Experience</div>
