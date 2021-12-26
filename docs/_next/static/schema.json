@@ -15,7 +15,7 @@ const schema = {
     "https://github.com/atif089",
     "https://atif.work/atif-mohammed-cv.pdf",
   ],
-  jobTitle: "Frontend Developer",
+  jobTitle: "Engineering Manager",
   hasOccupation: [
     {
       "@type": "Occupation",

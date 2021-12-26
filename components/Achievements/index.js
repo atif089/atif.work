@@ -1,5 +1,3 @@
-import PDFOnly from "@/components/PDFOnly";
-
 const Achievements = () => {
   return (
     <div className="section achievements section-grid">
@@ -19,14 +17,12 @@ const Achievements = () => {
             devpost.com/atif089
           </a>
         </p>
-        <PDFOnly>
-          <h4>Consulting / Freelance Experience</h4>
-          <p>
-            Achieved a Top-Rated Status on Upwork by providing technology related consulting and development services to
-            small businesses Top-Rated freelancers secure a 95% or better overall positive feedback on 12+ projects in a
-            year.
-          </p>
-        </PDFOnly>
+        <h4>Consulting / Freelance Experience</h4>
+        <p>
+          Achieved a Top-Rated Status on Upwork by providing technology related consulting and development services to
+          small businesses Top-Rated freelancers secure a 95% or better overall positive feedback on 12+ projects in a
+          year.
+        </p>
         <h4>Front End Development Mentor (2014-2015)</h4>
         <p>
           Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of

@@ -11,6 +11,7 @@ export async function getStaticProps(context) {
 import Head from "@/components/head";
 import Header from "@/components/Header";
 import Achievements from "@/components/Achievements";
+import Skills from "@/components/Skills";
 import ContactBlock from "@/components/ContactBlock";
 import EducationBlock from "@/components/EducationBlock";
 
@@ -29,8 +30,9 @@ const Home = () => (
     <Header />
     <ContactBlock />
     <Achievements />
+    <Skills />
 
-    <div className="section section-grid experience-section" style={{ pageBreakBefore: "auto" }}>
+    <div className="section section-grid experience-section">
       <div className="left">
         <h2>Experience</h2>
       </div>

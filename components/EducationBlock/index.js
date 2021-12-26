@@ -10,9 +10,9 @@ const EducationBlock = () => {
         <div className="right">
           <p>
             <strong>
-              <h4>(2007 – 2011) Bachelor of Technology</h4>
-              <p>VIF College of Engineering and Technology</p>
-              <p>Hyderabad, India</p>
+              <h4>Bachelor of Technology (2007 – 2011)</h4>
+              <p>Computer Science and Information Technology</p>
+              <p>VIF College of Engineering and Technology &mdash; Hyderabad, India</p>
             </strong>
           </p>
         </div>
