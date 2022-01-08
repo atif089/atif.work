@@ -7,6 +7,11 @@ export async function getStaticProps(context) {
   };
 }
 
+// removes JS
+export const config = {
+  unstable_runtimeJS: false,
+}
+
 // App Components
 import Head from "@/components/head";
 import Header from "@/components/Header";
