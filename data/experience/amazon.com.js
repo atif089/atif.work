@@ -15,10 +15,10 @@ const Booking = () => (
       </p>
     </div>
 
-    <h3 className="team-title">Amazon Local Services</h3>
+    <h3 className="team-title">Amazon Home Services</h3>
     <div className="role__container">
       <div className="job-desc">
-        <p>Worked on implementation of UIs for MVP for Amazon Local Services</p>
+        <p>Front-end development for MVP for Amazon Local Services (now Amazon Home Services).</p>
       </div>
     </div>
 
@@ -26,7 +26,7 @@ const Booking = () => (
     <div className="role__container">
       <div className="job-desc">
         <p>
-          Web Development, A/B Testing and Optimization for Amazon Marketing Websites in US
+          Web Development, A/B Testing and Optimization for Amazon Marketing Websites across US
           and Europe (services.amazon.com, services.amazon.co.uk, services.amazon.fr, services.amazon.de,
           services.amazon.es and services.amazon.it).
         </p>
@@ -37,8 +37,8 @@ const Booking = () => (
     <div className="role__container">
       <div className="job-desc">
         <p>
-          Worked on the UI for a web based application which can orchestrate generation of configuration sets and
-          monitoring configuration for new website launches
+          Developed UI for an orchestrate service that generates configuration sets and
+          monitoring launching new Amazon websites.
         </p>
       </div>
     </div>
