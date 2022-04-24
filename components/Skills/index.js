@@ -7,11 +7,10 @@ const Skills = (props) => (
     <div className="right">
       <div className="skills-container">
         <span>System Design</span> <span>Interviewing &amp; Hiring</span>
-        <span>Setting Objectives</span> <span>Setting Roadmap &amp; OKRs</span>
+        <span>Objectives, Roadmap &amp; OKRs</span> <span>Project Management</span>
         <span>Resource Allocation</span> <span>Conflict Resolution</span>
         <span>Creating &amp; Managing Agile Teams</span> <span>Change Management</span>
         <span>Personal Development</span> <span>Performance Management</span>
-        <span>Project Management</span>
       </div>
 
       <hr />

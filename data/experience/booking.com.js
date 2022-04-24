@@ -15,38 +15,43 @@ const Booking = () => (
       </p>
     </div>
 
-    <h3 className="team-title">Team Partner Incentives &amp; Team Upsell</h3>
+    <h3 className="team-title">Partner Incentives, Modify &amp; Upsell</h3>
     <div className="role__container">
       <div className="job-desc">
         <p style={{ paddingBottom: "10px" }}>
-          Leading engineering for multiple teams managing Frontend and Backend developers.
+          Leading engineering for multiple cross functional teams with a combined head count of 20+ (9 direct reports) 
+          managing 4 products with diverse userflows, catering to over 500,000 partners, handling over 3 million events
+          per day and registering over €30M in combined annual revenue.
         </p>
         <ul className="job-desc__bullets">
+          <li>Took responsibility for maintaining a legacy product with 0 developer and formed a new team 
+            reconstructing lost knowledge in Perl and migrating the codebase to Java.</li>
           <li>
             Formulated and executed replatforming strategy to decouple parts of team's scope from monolith and migrate
-            to microservices and microfrontends effectively reducing cost of deployments from 4 hours of manual effort
-            to 15 minutes using fully automated pipelines.
+            to microservices and microfrontends effectively reducing deployment effort by 95% (from 4 hours of manual effort
+            to 15 minutes using fully automated pipelines).
           </li>
           <li>
             Adopted best practices on improving code quality by maintaining minimum test coverage to 85%, adding E2E tests to
             cover all critical user flows and setting up business and continuity tests like failover, capacity and security
-            according to SRE guidelines
+            according to SRE guidelines.
           </li>
           <li>
-            Introduced SLOs to ensure that teams are on track to deliver. Reconstructed other monitoring and alerts at
+            Introduced SLOs to ensure that teams are on track to deliver. Established monitoring and alerts at
             various orchestration points to position the team better at handling incident management. Conducted
-            post-mortem analysis of outages and incidents, provide recommendations and publish RFOs (Reason For Outage)
+            post-mortem analysis of outages and incidents, provide recommendations and publish RFOs (Reason For Outage).
+            Set guidelines for the team around outages and firefighting.
           </li>
           <li>
             Improved bus factor by documenting onboarding processes, data workflows, service catalogs and
-            setting up product documentation like architecture diagrams(C4 and sequence)
+            setting up product documentation including architecture diagrams (C4 and sequence).
           </li>
           <li>
-            Identified communication and psychological safety issues in the team and faciliated a team bootcamp to
-            improve it. Resolved conflicts among team members and took necessary steps to align the team towards 
-            a common goal
+            Identified communication and psychological safety issues in the team and faciliated team bootcamp involving 
+            agile coach to improve it. Resolved conflicts among team members and took necessary steps to align the team
+            towards a common goal
           </li>
-          <li>Was responsible for performance evaluation and growth of my team members, part of which was also creating
+          <li>Was responsible for performance evaluation and growth of team members, part of which was also creating
             and monitoring progression of performance development plans for all reports</li>
           <li>
             Involved in Product Strategy that includes aligning with Product and UX create meaningful achievable milestones.
@@ -69,7 +74,7 @@ const Booking = () => (
             and ensure KPIs are tracked, reviewed.
           </li>
           <li>
-            Carry out team meetings, agile alignment, retrospectives. Ensure all team members are given a clear
+            Carry out team meetings and faciliated agile scrum meetings. Ensure all team members are given a clear
             understanding of their individual objectives and performance and provide regular feedback.
           </li>
           <li>Mentor team members and identify opportunities for them outside the team to leverage and grow.</li>
@@ -78,8 +83,7 @@ const Booking = () => (
             an expected time.
           </li>
           <li>
-            Create a comfortable and healthy team environment. Keep a check on mental health and provide adequate
-            support.
+            Create a comfortable and healthy team environment, check on mental health and provide support.
           </li>
         </ul>
       </div>
@@ -130,7 +134,7 @@ const Booking = () => (
       </div>
     </div>
 
-    <h3 className="team-title">Landing Pages Team</h3>
+    <h3 className="team-title" style={{pageBreakBefore: "always"}}>Landing Pages Team</h3>
     <div className="role__container">
       <div className="job-desc">
         <ul className="job-desc__bullets">
