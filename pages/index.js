@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import dynamic from "next/dynamic";
+import { useRouter } from "next/router";
 
 // Required for Static Generation
 export async function getStaticProps(context) {
@@ -25,38 +27,45 @@ import { schema as Person, schemaAsString } from "@/data/schema/001_person-main"
 import BookingExperience from "@/data/experience/booking.com";
 import AmazonExperience from "@/data/experience/amazon.com";
 
-// Lazy-Loaded App Components
-const UHGExperience = dynamic(import(/* webpackChunkName: "exp-uhg" */ "@/data/experience/uhg"));
+const Home = () => {
 
-const Home = () => (
-  <div id="app">
-    <Head title={`${Person.name} | C.V | Resume | Personal Website | atif.work`} />
+  const router = useRouter();
 
-    <Header />
-    <ContactBlock />
-    <Achievements />
-    <Skills />
+  useEffect(() => {
+    if (router.pathname == "/pdf") {
+      document.querySelector("html").classList.add("lite");
+    }
+  });
 
-    <div className="section section-grid experience-section">
-      <div className="left">
-        <h2>Experience</h2>
+  // Lazy-Loaded App Components
+  const UHGExperience = dynamic(() => import(/* webpackChunkName: "exp-uhg" */ "@/data/experience/uhg"));
+
+  return (
+    <div id="app">
+      <Head title={`${Person.name} | C.V | Resume | Personal Website | atif.work`} />
+
+      <Header />
+      <ContactBlock />
+      <Achievements />
+      <Skills />
+
+      <div className="section section-grid experience-section">
+        <div className="left">
+          <h2>Experience</h2>
+        </div>
+        <div className="right">
+          <BookingExperience />
+          <AmazonExperience />
+          <UHGExperience />
+        </div>
       </div>
-      <div className="right">
-        <BookingExperience />
-        <AmazonExperience />
-        {process.browser && (
-          <>
-            <UHGExperience />
-          </>
-        )}
-      </div>
+
+      <EducationBlock />
+
+      {/* Microformats / JsonLD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaAsString }} />
     </div>
-
-    <EducationBlock />
-
-    {/* Microformats / JsonLD */}
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaAsString }} />
-  </div>
-);
+  )
+};
 
 export default Home;

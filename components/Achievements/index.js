@@ -23,7 +23,7 @@ const Achievements = () => {
           small businesses Top-Rated freelancers secure a 95% or better overall positive feedback on 12+ projects in a
           year.
         </p>
-        <h4>Front End Development Mentor (2014-2015)</h4>
+        <h4>Front End Development Mentor (2014 — 2015)</h4>
         <p>
           Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of
           them have successfully transformed careers into Front End Developers.

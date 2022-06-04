@@ -1,4 +1,4 @@
-const Booking = () => (
+const UHG = () => (
   <div className="columns">
 
     <div className="experience-header">
@@ -24,4 +24,4 @@ const Booking = () => (
   </div>
 );
 
-export default Booking;
+export default UHG;

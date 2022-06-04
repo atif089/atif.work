@@ -13,7 +13,7 @@ const ContactBlock = () => {
         <a href="https://atif.work">atif.work</a>
         <a href="https://www.linkedin.com/in/atif089/">linkedin.com/in/atif089</a>
         <a href="https://github.com/atif089">github.com/atif089</a>
-        <a className="screenOnly" href="https://atif.work/atif-mohammed-cv.pdf">Download PDF</a>
+        <a className="screenOnly" href="https://atif.work/atif-mohammed-cv.pdf">Resume (PDF)</a>
 
       </div>
 
