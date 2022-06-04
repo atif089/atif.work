@@ -12,7 +12,7 @@ async function generatePdf() {
   await page.setCacheEnabled(false);
 
   // Route the headless browser to the webpage for printing
-  await page.goto("http://localhost:3000/?pdf=1"); // add your url
+  await page.goto("http://localhost:3000/"); // add your url
 
   // Wait for lazy loaded the components to mount
   await page.waitForTimeout(3000);
