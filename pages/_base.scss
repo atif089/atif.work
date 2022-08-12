@@ -133,6 +133,7 @@ header {
 .contact-section-row {
   display: flex;
   place-content: center;
+  flex-wrap: wrap;
 
   span,
   a {
