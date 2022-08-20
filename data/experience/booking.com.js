@@ -15,22 +15,24 @@ const Booking = () => (
       </p>
     </div>
 
-    <h3 className="team-title">Partner Incentives, Modify &amp; Upsell</h3>
+    <h3 className="team-title">Partner Incentives, Modifications, Cancellations &amp; Upsell</h3>
     <div className="role__container">
       <div className="job-desc">
         <p style={{ paddingBottom: "10px" }}>
-          Leading engineering for multiple cross functional teams with a head count of 20+ (9 direct reports)
-          managing a portfolio of 4 products with diverse userflows, catering to over 500,000 partners, handling over
-          5+ million events per day and registering over €30M in combined annual revenue.
+          Leading engineering for multiple cross functional teams with a head count of 20+ (14 direct reports)
+          managing a portfolio of 4 products with diverse userflows, catering to over 500,000 partners,
+          handling over 5M+ events/day and registering over €30M in combined annual revenue.
         </p>
         <ul className="job-desc__bullets">
           <li>Took responsibility for maintaining a legacy product with 0 developers and formed a new team
             reconstructing the missing domain knowledge from Perl and migrating it to Java.</li>
           <li>
             Formulated and successfully executed a re-platforming strategy to decouple parts of team's scope from
-            existing monolith and migrate to microservice and microfrontend effectively reducing deployment effort
-            by 95% (from 4 hours of manual effort to 15 minutes using fully automated pipelines).
+            existing monolith and migrate to microservice and microfrontend (Java, React, GraphQL, Kafka) effectively
+            reducing deployment effort by 95% (from 4 hours of manual effort to 15 minutes using fully automated pipelines).
           </li>
+          <li>Preparation of organisational design, hiring of engineers, and formation of teams to deliver modernisation
+            and maintaining the products</li>
           <li>
             Steered best practices on improving code quality by maintaining minimum test coverage to 85%, adding E2E
             tests to cover all critical user flows and setting up recurring business and continuity tests like
@@ -44,14 +46,14 @@ const Booking = () => (
           </li>
           <li>
             Improved bus factor by documenting onboarding processes, data workflows, service catalogs and
-            setting up product and tech documentation including architecture diagrams (like C4 and sequence)
+            setting up product architecture and other technical documentation
           </li>
           <li>
             Identified communication and psychological safety issues in the team and faciliated team bootcamp involving
             agile coach to improve it. Resolved conflicts among team members and took necessary steps to align the team
             towards a common goal
           </li>
-          <li>Was responsible for performance evaluation and growth of team members, part of which was also creating
+          <li>Responsible for performance evaluation and growth of team members, part of which was also creating
             and monitoring progression of performance development plans for all reports</li>
           <li>
             Involved in Product Strategy that includes aligning with Product and UX create meaningful achievable milestones.

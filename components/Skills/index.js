@@ -20,10 +20,11 @@ const Skills = (props) => (
         <span>MySQL / MariaDB</span> <span>MongoDB</span> <span>Rethink DB</span>
         <span>React</span> <span>Vue</span> <span>WebPack</span> <span>GraphQL</span> <span>Puppeteer</span>
         <span>Google Drive Scripts</span> <span>Postman</span> <span>Git</span>
-        <span>AWS</span> <span>Google Cloud Platform</span>
+        <span>AWS</span> <span>Google Cloud Platform (GCP)</span>
         <span>Nginx</span> <span>Apache</span>
         <span>Micro Services</span> <span>Micro Frontends</span>
         <span>Terraform</span> <span>Docker</span> <span>Vagrant</span> <span>Linux</span>
+        <span>Graphite/Grafana</span> <span>New Relic</span> <span>Elastic</span>
         <span>A/B Testing</span> <span>Google Analytics</span>
         <span>PHP</span> <span>WordPress &amp; WooCommerce</span>
       </div>
