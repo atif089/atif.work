@@ -136,7 +136,7 @@ const Booking = () => (
       </div>
     </div>
 
-    <h3 className="team-title" style={{ pageBreakBefore: "always" }}>Landing Pages Team</h3>
+    <h3 className="team-title">Landing Pages Team</h3>
     <div className="role__container">
       <div className="job-desc">
         <ul className="job-desc__bullets">
