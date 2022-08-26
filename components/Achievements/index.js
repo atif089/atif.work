@@ -12,7 +12,7 @@ const Achievements = () => {
         </p>
         <h4>Hackathons</h4>
         <p>
-          Participated and won serveral hackathons as a hobby including AWS Graviton, Rapyd and Freshdesk -{" "}
+          Participated and won serveral hackathons like AWS Graviton (Cloud), Rapyd (FinTech) and Freshdesk (SaaS/CRM) -{" "}
           <a target="_blank" href="https://devpost.com/atif089">
             devpost.com/atif089
           </a>
