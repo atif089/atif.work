@@ -149,7 +149,7 @@ header {
 
 .workstatus {
   text-align: center;
-}
+  }
 
 /* Achievements */
 .achievements h4:nth-of-type(n + 2) {
@@ -206,6 +206,14 @@ header {
     padding-left: 20px;
     border-left: 3px solid var(--color-light-grey);
     list-style: none;
+  }
+}
+
+.columns:last-of-type {
+  .role__container {
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 

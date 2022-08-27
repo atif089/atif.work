@@ -47,7 +47,6 @@ const Home = () => {
       <Header />
       <ContactBlock />
       <Achievements />
-      <Skills />
 
       <div className="section section-grid experience-section">
         <div className="left">
@@ -61,6 +60,7 @@ const Home = () => {
       </div>
 
       <EducationBlock />
+      <Skills />
 
       {/* Microformats / JsonLD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaAsString }} />
