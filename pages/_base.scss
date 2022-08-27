@@ -11,8 +11,9 @@
   --heading-font: "Lato", Helvetica, "Luicida Sans", sans-serif;
 }
 
+// for PDF
+// prettier-ignore
 :root.lite {
-  // for PDF
   --base-font: "Segoe UI", "Lato", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Segoe UI", "Lato", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -144,6 +145,10 @@ header {
   address {
     font-style: normal;
   }
+}
+
+.workstatus {
+  text-align: center;
 }
 
 /* Achievements */

@@ -1,4 +1,6 @@
 import { schema as Person } from "@/data/schema/001_person-main";
+import PDFOnly from "@/components/PDFOnly";
+
 
 const ContactBlock = () => {
   return (
@@ -14,9 +16,14 @@ const ContactBlock = () => {
         <a href="https://www.linkedin.com/in/atif089/">linkedin.com/in/atif089</a>
         <a href="https://github.com/atif089">github.com/atif089</a>
         <a className="screenOnly" href="https://atif.work/atif-mohammed-cv.pdf">Resume (PDF)</a>
-
       </div>
-
+      <PDFOnly>
+        <div className="contact-section-row">
+          <span className="workstatus">
+            <strong>Nationality:</strong> Netherlands
+          </span>
+        </div>
+      </PDFOnly>
       <hr />
     </div>
   );
