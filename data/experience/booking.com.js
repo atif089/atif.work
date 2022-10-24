@@ -2,16 +2,13 @@ const Booking = () => (
   <div className="columns">
     <div className="experience-header">
       <h2>
-        <span className="job-title">Engineering Manager</span>
-        {" "} at <span className="company">Booking.com</span>
+        <span className="job-title">Engineering Manager</span> at <span className="company">Booking.com</span>
       </h2>
       <p className="date-and-location">
         <span className="date">
           <span>2014 Aug</span> &mdash; <span>Current</span>
         </span>
-        <span className="location">
-          Amsterdam, Netherlands
-        </span>
+        <span className="location">Amsterdam, Netherlands</span>
       </p>
     </div>
 
@@ -19,46 +16,53 @@ const Booking = () => (
     <div className="role__container">
       <div className="job-desc">
         <p style={{ paddingBottom: "10px" }}>
-          Leading engineering for multiple cross functional teams with a head count of 20+ (14 direct reports)
-          managing a portfolio of 4 products with diverse userflows, catering to over 500,000 partners,
-          handling over 5M+ events/day and registering over €30M in combined annual revenue.
+          Leading engineering for multiple cross-functional teams with a head count of 20+ (14 direct reports) managing
+          a portfolio of 4 products with diverse user-flows, catering to over 500,000 partners, handling over 5M+
+          events/day, and registering over €30M in combined annual revenue.
         </p>
         <ul className="job-desc__bullets">
-          <li>Took responsibility for maintaining a legacy product with 0 developers and formed a new team
-            reconstructing the missing domain knowledge from Perl and migrating it to Java.</li>
           <li>
-            Formulated and successfully executed a re-platforming strategy to decouple parts of team's scope from
-            existing monolith and migrate to microservice and microfrontend (Java, React, GraphQL, Kafka) effectively
-            reducing deployment effort by 95% (from 4 hours of manual effort to 15 minutes using fully automated pipelines).
+            Took responsibility for maintaining a legacy product with 0 developers and formed a new team reconstructing
+            the missing domain knowledge from Perl and migrating it to Java.
           </li>
-          <li>Preparation of organisational design, hiring of engineers, and formation of teams to deliver modernisation
-            and maintaining the products</li>
+          <li>
+            Formulated and successfully executed a re-platforming strategy to decouple parts of the team's scope from
+            the existing monolith and migrate to microservice and microfrontend (Java, React, GraphQL, Kafka)
+            effectively reducing deployment effort by 95% (from 4 hours of manual effort to 15 minutes using fully
+            automated pipelines).
+          </li>
+          <li>
+            Preparation of organizational design, hiring of engineers, and formation of teams to deliver modernization
+            and maintain the products
+          </li>
           <li>
             Steered best practices on improving code quality by maintaining minimum test coverage to 85%, adding E2E
-            tests to cover all critical user flows and setting up recurring business and continuity tests like
-            failover, capacity and security according to SRE guidelines.
+            tests to cover all critical user flows, and setting up recurring business and continuity tests like
+            failover, capacity, and security according to SRE guidelines.
           </li>
           <li>
-            Introduced SLOs to ensure that teams are on track to deliver. Established monitoring and alerts at
-            various orchestration points to position the team better at handling incident management. Conducted
-            post-mortem analysis of outages and incidents, provided recommendations and publish RFOs (Reason For Outage).
-            Set guidelines for the team around outages and firefighting.
+            Introduced SLOs to ensure that teams are on track to deliver. Established monitoring and alerts at various
+            orchestration points to position the team better at handling incident management. Conducted post-mortem
+            analysis of outages and incidents, provided recommendations, and publish RFOs (Reason For Outage). Set
+            guidelines for the team around outages and firefighting.
           </li>
           <li>
-            Improved bus factor by documenting onboarding processes, data workflows, service catalogs and
-            setting up product architecture and other technical documentation
+            Improved bus factor by documenting onboarding processes, data workflows, service catalogs, and setting up
+            product architecture and other technical documentation
           </li>
           <li>
-            Identified communication and psychological safety issues in the team and faciliated team bootcamp involving
-            agile coach to improve it. Resolved conflicts among team members and took necessary steps to align the team
-            towards a common goal
+            Identified communication and psychological safety issues in the teams and facilitated agile bootcamps to
+            improve it. Resolved conflicts among team members and took necessary steps to align the team toward a common
+            goal
           </li>
-          <li>Responsible for performance evaluation and growth of team members, part of which was also creating
-            and monitoring progression of performance development plans for all reports</li>
           <li>
-            Involved in Product Strategy that includes aligning with Product and UX create meaningful achievable milestones.
-            Liase with FE and BE developers to identify tech debt and bottlenecks and prepare a technical roadmap to
-            overcome those challenges.
+            Responsible for performance evaluation and growth of team members, part of which was also creating and
+            monitoring the progression of performance development plans for all reports
+          </li>
+          <li>
+            Involved in Product Strategy that includes aligning with Product and UX create meaningful achievable
+            milestones. Liaise with FE and BE developers to identify tech debt and bottlenecks and prepare a technical
+            roadmap to overcome those challenges.
           </li>
         </ul>
       </div>
@@ -84,9 +88,7 @@ const Booking = () => (
             Onboarding new team members on the team from various roles and ensuring they are up to their productivity in
             an expected time.
           </li>
-          <li>
-            Create a comfortable and healthy team environment, check on mental health and provide support.
-          </li>
+          <li>Create a comfortable and healthy team environment, check on mental health and provide support.</li>
         </ul>
       </div>
     </div>
@@ -103,9 +105,7 @@ const Booking = () => (
             Identify and eliminate points of friction for customers trying to contact Booking.com, and at the same time
             optimizing the UI to maintain clarity, consistency, and context to both the customer and the support staff.
           </li>
-          <li>
-            Ran Technical Interviews for frontend developers (with Acceptance/Offer Ratio: 0.8)
-          </li>
+          <li>Ran Technical Interviews for frontend developers (with Acceptance/Offer Ratio: 0.8)</li>
         </ul>
       </div>
     </div>
@@ -129,9 +129,7 @@ const Booking = () => (
             emails, grooming backlog, setting up automatic calendar invites for important training, tracking feedback
             and producing individual reports from spreadsheets.
           </li>
-          <li>
-            Successfully integrated over 38 people in the company with an average of 14 reports at any time.
-          </li>
+          <li>Successfully integrated over 38 people in the company with an average of 14 reports at any time.</li>
         </ul>
       </div>
     </div>
