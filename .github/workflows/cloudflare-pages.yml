@@ -1,9 +1,10 @@
 name: Deploy Next.js website to Cloudflare
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 jobs:
   start-server:
