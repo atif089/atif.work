@@ -17,25 +17,18 @@ const Achievements = () => {
             devpost.com/atif089
           </a>
         </p>
-        <h4>Consulting / Freelance Experience</h4>
-        <ul>
-          <li>Built an Ecommerce shop with 4 members and >&euro;3.6M in Annual Revenue.</li>
-          <li>
-            Achieved a Top-Rated Status on Upwork by providing technology-related consulting and development services to
-            small businesses Top-Rated freelancers secure 95% or better overall positive feedback on 12+ projects in a
-            year.
-          </li>
-        </ul>
-
-        {
-          /* Mentoring Block
-            <h4>Front End Development Mentor (2014 — 2015)</h4>
-            <p>
-              Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of
-              them have successfully transformed careers into Front End Developers.
-            </p>
-          */
-        }
+        <h4>Freelance & Consulting</h4>
+        <p>
+          Successfully launched an e-commerce project in the Netherlands, centered on providing skylight solutions, with a remarkable €4 million generated in ARR from the outset.
+        </p>
+        <p>
+          Attained the esteemed Top-Rated status on Upwork, showcasing exceptional technological consultancy and development services for small businesses, earning 95% or higher overall positive feedback on over 12 projects within a single year.
+        </p>
+        <h4>Mentorship</h4>
+        <p>
+          Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of
+          them have successfully transformed careers into Front End Developers.
+        </p>
       </div>
     </div>
   );
