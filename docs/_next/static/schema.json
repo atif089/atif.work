@@ -15,15 +15,19 @@ const schema = {
     "https://github.com/atif089",
     "https://atif.work/atif-mohammed-cv.pdf",
   ],
-  jobTitle: "Engineering Manager",
+  jobTitle: "Director of Engineering",
   hasOccupation: [
     {
       "@type": "Occupation",
-      name: "Engineering Manager",
-      skills: "Javascript, NodeJS, HTML, CSS, React, Docker, WebPack, PHP, WordPress",
+      name: "Director of Engineering",
+      skills: "Javascript, Golang, Microservices, MySQL, GCP, NodeJS, React, Vue, Docker, PHP, WordPress",
     },
   ],
   worksFor: [
+    {
+      "@type": "Organization",
+      name: "Cenomi",
+    },
     {
       "@type": "Organization",
       name: "Booking.com",
