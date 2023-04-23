@@ -18,16 +18,24 @@ const Achievements = () => {
           </a>
         </p>
         <h4>Consulting / Freelance Experience</h4>
-        <p>
-          Achieved a Top-Rated Status on Upwork by providing technology-related consulting and development services to
-          small businesses Top-Rated freelancers secure 95% or better overall positive feedback on 12+ projects in a
-          year.
-        </p>
-        <h4>Front End Development Mentor (2014 — 2015)</h4>
-        <p>
-          Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of
-          them have successfully transformed careers into Front End Developers.
-        </p>
+        <ul>
+          <li>Built an Ecommerce shop with 4 members and >&euro;3.6M in Annual Revenue.</li>
+          <li>
+            Achieved a Top-Rated Status on Upwork by providing technology-related consulting and development services to
+            small businesses Top-Rated freelancers secure 95% or better overall positive feedback on 12+ projects in a
+            year.
+          </li>
+        </ul>
+
+        {
+          /* Mentoring Block
+            <h4>Front End Development Mentor (2014 — 2015)</h4>
+            <p>
+              Mentored over 25 students as a remote mentor over the platform Thinkful for Front End Development. Some of
+              them have successfully transformed careers into Front End Developers.
+            </p>
+          */
+        }
       </div>
     </div>
   );
