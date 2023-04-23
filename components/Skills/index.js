@@ -27,6 +27,7 @@ const Skills = (props) => (
         <span>Graphite/Grafana</span> <span>New Relic</span> <span>Elastic</span>
         <span>A/B Testing</span> <span>Google Analytics</span>
         <span>PHP</span> <span>WordPress &amp; WooCommerce</span>
+        <span>Microservices</span> <span>Go</span>
       </div>
     </div>
   </div>
