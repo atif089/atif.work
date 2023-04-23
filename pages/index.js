@@ -24,6 +24,7 @@ import EducationBlock from "@/components/EducationBlock";
 
 // Data
 import { schema as Person, schemaAsString } from "@/data/schema/001_person-main";
+import CenomiExperience from "@/data/experience/cenomi";
 import BookingExperience from "@/data/experience/booking.com";
 import AmazonExperience from "@/data/experience/amazon.com";
 
@@ -53,6 +54,7 @@ const Home = () => {
           <h2>Experience</h2>
         </div>
         <div className="right">
+          <CenomiExperience />
           <BookingExperience />
           <AmazonExperience />
           <UHGExperience />
