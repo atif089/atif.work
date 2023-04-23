@@ -134,7 +134,7 @@ const Booking = () => (
       </div>
     </div>
 
-    <h3 className="team-title">Landing Pages Team</h3>
+    <h3 className="team-title">Other Previous Teams</h3>
     <div className="role__container">
       <div className="job-desc">
         <ul className="job-desc__bullets">
@@ -147,14 +147,6 @@ const Booking = () => (
             Built tools to automate processes like linting checks, boilerplate to create new A/B tests, etc. using Bash
             and Node.JS.
           </li>
-        </ul>
-      </div>
-    </div>
-
-    <h3 className="team-title">Other Previous Teams</h3>
-    <div className="role__container">
-      <div className="job-desc">
-        <ul className="job-desc__bullets">
           <li>
             Worked on rewriting the core routing component of the system and a new search box along with routine
             Frontend / Javascript tasks. I also worked on implementing Google Analytics events and dimension for various
