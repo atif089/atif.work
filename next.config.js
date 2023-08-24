@@ -13,7 +13,8 @@ module.exports = withBundleAnalyzer({
   },
 
   devIndicators: {
-    autoPrerender: false,
+    buildActivity: true,
+    buildActivityPosition: "bottom-right"
   },
 
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
@@ -26,4 +27,9 @@ module.exports = withBundleAnalyzer({
     await copyFile(join(dir, ".nojekyll"), join(outDir, ".nojekyll"));
     return defaultPathMap;
   },
+
+  // exports
+  output: 'export',
+  distDir: 'docs',
+
 });

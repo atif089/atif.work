@@ -3,13 +3,13 @@ My personal website and CV http://atif.work/
 ## Website Build
 
 ```
-yarn next build; yarn next export -o "./docs/";
+yarn next build;
 ```
 
 ## PDF Build
 
 ```
-yarn next build; yarn next export -o "./docs/";
-npx serve -p 3000
+yarn next build;
+npx serve -p 3000 docs/
 node .\scripts\makepdf.js
 ```

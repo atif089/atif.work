@@ -15,7 +15,7 @@ export const config = {
 }
 
 // App Components
-import Head from "@/components/head";
+import Head from "@/components/Head";
 import Header from "@/components/Header";
 import Achievements from "@/components/Achievements";
 import Skills from "@/components/Skills";
