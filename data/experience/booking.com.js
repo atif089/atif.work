@@ -43,7 +43,7 @@ const Booking = () => (
           <li>
             Introduced SLOs to ensure that teams are on track to deliver. Established monitoring and alerts at various
             orchestration points to position the team better at handling incident management. Conducted post-mortem
-            analysis of outages and incidents, provided recommendations, and publish RFOs (Reason For Outage). Set
+            analysis of outages and incidents, provided recommendations, and published RFOs (Reason For Outage). Set
             guidelines for the team around outages and firefighting.
           </li>
           <li>
@@ -60,7 +60,7 @@ const Booking = () => (
             monitoring the progression of performance development plans for all reports
           </li>
           <li>
-            Involved in Product Strategy that includes aligning with Product and UX create meaningful achievable
+            Involved in Product Strategy that includes aligning with Product and UX to create meaningful achievable
             milestones. Liaise with FE and BE developers to identify tech debt and bottlenecks and prepare a technical
             roadmap to overcome those challenges.
           </li>
@@ -71,16 +71,16 @@ const Booking = () => (
     <h3 className="team-title">Partner Incentives</h3>
     <div className="role__container">
       <div className="job-desc">
-        <p style={{ paddingBottom: "10px" }}>Managing a cross functional team of 4 people and working on:</p>
+        <p style={{ paddingBottom: "10px" }}>Managing a cross-functional team of 4 people and working on:</p>
         <ul className="job-desc__bullets">
           <li>Leading the team running incentive campaigns for accommodation partners</li>
           <li>
             Create and maintain an effective frontend product roadmap, including specific projects and tasks, that
             aligns with the strategic direction of the organization and the company. Plan semi-annual team objectives
-            and ensure KPIs are tracked, reviewed.
+            and ensure KPIs are tracked, and reviewed.
           </li>
           <li>
-            Carry out team meetings and faciliated agile scrum meetings. Ensure all team members are given a clear
+            Organize and carry out team meetings and scrum ceremonies. Ensure all team members are given a clear
             understanding of their individual objectives and performance and provide regular feedback.
           </li>
           <li>Mentor team members and identify opportunities for them outside the team to leverage and grow.</li>

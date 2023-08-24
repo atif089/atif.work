@@ -8,7 +8,8 @@ const ContactBlock = () => {
       <div className="contact-section-row">
         <address>
           <span>Email: atif089@gmail.com</span>
-          <span>Phone: +31 644 939 013</span>
+          <span>Mobile: +31 644 939 013</span>
+          <span>Alternate: +966 564 294 905</span>
         </address>
       </div>
       <div className="contact-section-row">
@@ -21,6 +22,9 @@ const ContactBlock = () => {
         <div className="contact-section-row">
           <span className="workstatus">
             <strong>Nationality:</strong> Netherlands
+          </span>
+          <span className="workstatus">
+            <strong>Current Location:</strong> Saudi Arabia
           </span>
         </div>
       </PDFOnly>

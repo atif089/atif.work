@@ -4,7 +4,7 @@ const fs = require("fs");
 async function generatePdf() {
   const browser = await puppeteer.launch({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    headless: true,
+    headless: "new",
   });
 
   // Open a new page with the headless browser
@@ -23,10 +23,8 @@ async function generatePdf() {
     format: "Letter",
     PreferCSSPageSize: false,
     margin: {
-      top: "0.2cm",
-      bottom: "0.2cm",
-      left: "0.2cm",
-      right: "0.2cm",
+      top: "0.15cm",
+      bottom: "0.15cm",
     },
   });
 

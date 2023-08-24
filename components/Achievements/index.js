@@ -17,9 +17,9 @@ const Achievements = () => {
             devpost.com/atif089
           </a>
         </p>
-        <h4>Freelance & Consulting</h4>
+        <h4>Consulting & Freelance</h4>
         <p>
-          Successfully launched an e-commerce project in the Netherlands, centered on providing skylight solutions, with a remarkable €4 million generated in ARR from the outset.
+          Launched an e-commerce project, generating a remarkable GMV of €4M and €10M in 1st and 2nd years respectively.
         </p>
         <p>
           Attained the esteemed Top-Rated status on Upwork, showcasing exceptional technological consultancy and development services for small businesses, earning 95% or higher overall positive feedback on over 12 projects within a single year.
