@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "deploy": "next build && node ./scripts/deploy.js"
   },
   "dependencies": {
     "next": "13.4.19",
@@ -16,8 +16,9 @@
     "@next/bundle-analyzer": "^13.3.1",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
-    "puppeteer": "^21.1.0"
+    "puppeteer": "^21.1.0",
+    "serve": "^14.2.1"
   },
-  "license":"UNLICENSED",
-  "private": true  
+  "license": "UNLICENSED",
+  "private": true
 }

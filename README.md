@@ -6,7 +6,7 @@ My personal website and CV http://atif.work/
 yarn next build;
 ```
 
-## PDF Build
+## One Step Website + PDF Build
 
 ```
 yarn next build;
