@@ -9,7 +9,5 @@ yarn next build;
 ## One Step Website + PDF Build
 
 ```
-yarn next build;
-npx serve -p 3000 docs/
-node .\scripts\makepdf.js
+yarn deploy;
 ```

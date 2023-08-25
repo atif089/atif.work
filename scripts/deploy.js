@@ -9,7 +9,7 @@ const server = exec('yarn serve -p 3000 docs/');
 const waitForServer = () => {
   return new Promise((resolve) => {
     const checkServer = () => {
-      http.get('http://localhost:3000', (res) => {
+      http.get('http://localhost:3000/pdf', (res) => {
         if (res.statusCode === 200) {
           resolve();
         }
@@ -26,7 +26,7 @@ const waitForServer = () => {
 const makePdf = async () => {
   const browser = await puppeteer.launch({headless: "new"});
   const page = await browser.newPage();
-  await page.goto('http://localhost:3000?pdf', { waitUntil: 'networkidle2' });
+  await page.goto('http://localhost:3000/pdf', { waitUntil: 'networkidle2' });
   await page.pdf({ path: './docs/atif-mohammed-cv.pdf', format: 'Letter' });
   await browser.close();
 };
