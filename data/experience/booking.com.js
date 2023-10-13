@@ -6,7 +6,7 @@ const Booking = () => (
       </h2>
       <p className="date-and-location">
         <span className="date">
-          <span>2014 Aug</span> &mdash; <span>Current</span>
+          <span>2014 Aug</span> &mdash; <span>Jan 2023</span>
         </span>
         <span className="location">Amsterdam, Netherlands</span>
       </p>
