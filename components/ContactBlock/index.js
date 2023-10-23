@@ -9,7 +9,7 @@ const ContactBlock = () => {
         <address>
           <span>Email: atif089@gmail.com</span>
           <span>Mobile: +31 644 939 013</span>
-          <span>Alternate: +966 564 294 905</span>
+          <span>Alternate: +966 544 692 417</span>
         </address>
       </div>
       <div className="contact-section-row">
